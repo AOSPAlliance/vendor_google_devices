@@ -1,8 +1,8 @@
-38d0a925bd61c49d55bdb5fbc9bad1d3064cc31d  vendor/google_devices/marlin/BoardConfigVendor.mk
-4280db611a78b71c177b4262acdec00e96806dc4  vendor/google_devices/marlin/device-vendor-sailfish.mk
-8efd80e2385bc90f08170ab4345ff8bd6bddf7c4  vendor/google_devices/sailfish/Android.mk
-ffa060636f5a44415603af70cba519ec1ca579c9  vendor/google_devices/sailfish/AndroidBoardVendor.mk
-9acc2a4e54fe292c76022a7fe3f1a6e3ff1ca965  vendor/google_devices/sailfish/BoardConfigVendorPartial.mk
+a7a886102d308f4e4b32e74b9f2735036e12400c  vendor/google_devices/marlin/BoardConfigVendor.mk
+c23788da4f5c630692bd0461152f8863754be63a  vendor/google_devices/marlin/device-vendor-sailfish.mk
+2244fe4175d323e725a44e8c75224bfe44966818  vendor/google_devices/sailfish/Android.mk
+29c610ac65a74beef957d5bc7c84ba7dca965002  vendor/google_devices/sailfish/AndroidBoardVendor.mk
+0711cd60a47653155f5fecfce0e4a1813a2c7b83  vendor/google_devices/sailfish/BoardConfigVendorPartial.mk
 c08de4beab7cb866f53e91ae5ed0f92df20df89e  vendor/google_devices/sailfish/proprietary/app/ims/ims.apk
 222b50ebdf2486b3d69b909f38f8b7a7a6fbf54a  vendor/google_devices/sailfish/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml
 aaf2e9424cf53bde71edbf16282108e8537a9bb9  vendor/google_devices/sailfish/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml
@@ -31,7 +31,7 @@ a307580a4c924907a46b01c051ca6c92333a3754  vendor/google_devices/sailfish/radio/c
 86cd08eec869d30d68378247fee86ba068c47963  vendor/google_devices/sailfish/radio/rpm.img
 e7824e879496b557fd095de9a9e4dc7cbab3aba8  vendor/google_devices/sailfish/radio/tz.img
 7d706e3431b8d05864b1038112f62251b85bccb0  vendor/google_devices/sailfish/radio/xbl.img
-12e3d277448494fc586621157909febdd8313210  vendor/google_devices/sailfish/sailfish-vendor-blobs.mk
+25df9d6c84f1dbda7989dadaf4047ce8106e24f3  vendor/google_devices/sailfish/sailfish-vendor-blobs.mk
 0569b190a99425e47a11b47fd4ea4bc57b4d0f21  vendor/google_devices/sailfish/vendor-board-info.txt
 700a8c6368e4f4d63e1b8eced0b6cb177b9d4ab3  vendor/google_devices/sailfish/vendor/app/QAS_DVC_MSP/QAS_DVC_MSP.apk
 750241e199c03f1ecfd8c06914ebc0ece176fe4a  vendor/google_devices/sailfish/vendor/app/QtiTelephonyService/QtiTelephonyService.apk
