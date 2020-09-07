@@ -11,6 +11,7 @@ format = "%(asctime)s: %(message)s"
 logging.basicConfig(format=format, level=logging.INFO, datefmt="%H:%M:%S")
 
 config_file = "config.json"
+apv_metadata_file = "apv-metadata.json"
 android_prepare_vendor_repo = "https://github.com/AOSPAlliance/android-prepare-vendor.git"
 temp_out_dir = "out"
 
@@ -56,7 +57,16 @@ if __name__ == "__main__":
     shutil.rmtree("{}".format(temp_out_dir_apv), ignore_errors=True)
     logging.info("cloning {} to {}".format(args.repo, temp_out_dir_apv))
     repo = git.Repo.clone_from(args.repo, temp_out_dir_apv)
-    logging.info("using android-prepare-vendor latest commit: %s - %s", repo.head.commit.hexsha, repo.head.commit.message)
+
+    logging.info("using android-prepare-vendor latest commit: {} - {}".format(str(repo.head.commit.hexsha), str(repo.head.commit.message)))
+    apv_metadata = {
+        'repo': android_prepare_vendor_repo,
+        'commit': str(repo.head.commit.hexsha),
+        'message': str(repo.head.commit.message)
+    }
+    apv_metadata_json_output = json.dumps(apv_metadata, indent=2)
+    with open(apv_metadata_file, "w") as outfile:
+        outfile.writelines(apv_metadata_json_output)
 
     with open(config_file) as f:
         config = json.load(f)
