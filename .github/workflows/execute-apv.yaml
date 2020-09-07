@@ -1,6 +1,9 @@
-name: Update vendor_google_device
+name: Execute APV
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   update:
@@ -14,9 +17,6 @@ jobs:
     - name: Install python3 dependencies
       run: sudo apt-get -y install python3-setuptools && pip3 install --user pyyaml gitpython
 
-    - name: Update config file
-      run: python3 update_config.py
-
     - name: Run android-prepare-vendor for each device
       run: python3 execute_apv.py --metadata --threads 2
 
@@ -26,10 +26,10 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v3
       with:
-        commit-message: Automated update of vendor_google_device
+        commit-message: Automated update of vendor_google_devices
         committer: GitHub <noreply@github.com>
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        title: 'Update vendor_google_device'
+        title: 'Automated update of vendor_google_devices'
         labels: |
           automated pr
         assignees: dan-v
