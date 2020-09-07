@@ -1,3 +1,3 @@
 require board=taimen
-require version-bootloader=TMZ30l
-require version-baseband=g8998-00020-1912122233
+require version-bootloader=TMZ30m
+require version-baseband=g8998-00023-2004070200

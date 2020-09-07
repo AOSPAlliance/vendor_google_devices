@@ -1,9 +1,9 @@
-0818a8cfdb999ea9e7b751e546e039f5842e2e3e  vendor/google_devices/marlin/Android.mk
-ffa060636f5a44415603af70cba519ec1ca579c9  vendor/google_devices/marlin/AndroidBoardVendor.mk
-38d0a925bd61c49d55bdb5fbc9bad1d3064cc31d  vendor/google_devices/marlin/BoardConfigVendor.mk
-d824eb1e8cc6884a2c37e7e7cd97873785dea720  vendor/google_devices/marlin/BoardConfigVendorPartial.mk
-4280db611a78b71c177b4262acdec00e96806dc4  vendor/google_devices/marlin/device-vendor-marlin.mk
-054f70e259bdf2c9986fad6c142265b9b720632f  vendor/google_devices/marlin/marlin-vendor-blobs.mk
+a64d803621bb85bdc2bea2a7bfe50172d5fe771e  vendor/google_devices/marlin/Android.mk
+29c610ac65a74beef957d5bc7c84ba7dca965002  vendor/google_devices/marlin/AndroidBoardVendor.mk
+a7a886102d308f4e4b32e74b9f2735036e12400c  vendor/google_devices/marlin/BoardConfigVendor.mk
+7119cd2e93fa28912c31b767195f58948b85c11e  vendor/google_devices/marlin/BoardConfigVendorPartial.mk
+c23788da4f5c630692bd0461152f8863754be63a  vendor/google_devices/marlin/device-vendor-marlin.mk
+9b035c8a3aeaaef763d84edefee8c84a71e302d1  vendor/google_devices/marlin/marlin-vendor-blobs.mk
 e1ddb2da7512c6d407dbbf875e4a37586501873d  vendor/google_devices/marlin/proprietary/app/ims/ims.apk
 222b50ebdf2486b3d69b909f38f8b7a7a6fbf54a  vendor/google_devices/marlin/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml
 aaf2e9424cf53bde71edbf16282108e8537a9bb9  vendor/google_devices/marlin/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml
