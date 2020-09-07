@@ -1,0 +1,34 @@
+name: Update config.json
+
+on: [workflow_dispatch]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install python3 dependencies
+      run: sudo apt-get -y install python3-setuptools && pip3 install --user pyyaml gitpython
+
+    - name: Update config file
+      run: python3 update_config.py
+
+    - name: Git diff
+      run: git diff
+
+    - name: Create pull request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: Automated update of config.json
+        committer: GitHub <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        title: 'Automated update of config.json'
+        labels: |
+          automated pr
+        assignees: dan-v
+        reviewers: dan-v
+        draft: false
+
+    - name: Check output
+      run: echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
