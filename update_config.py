@@ -57,18 +57,13 @@ class AndroidImagesParser(HTMLParser):
                     self.device, {}
                 )["%s_url" % self.type] = self._HTMLParser__starttag_text.split('"')[1]
             if len(data) > 6:
-                if "https://dl.google.com/" in data and self.version_open == True:
-                    self.images.setdefault(
-                        self.device, {}
-                    )["%s_url" % self.type] = data
-                elif self.hash_pattern.match(data) and self.version_open == True:
+                if self.hash_pattern.match(data) and self.version_open == True:
                     self.images.setdefault(
                         self.device, {}
                     )["%s_sha256" % self.type] = data
                 elif data.split(' ')[0].startswith("%s." % self.version):
                     _re = re.search(r'\b\w{3} \d{4}(?P<optional_close_bracket>\)?)', data)
-                    # Skip none generic carrier versions for now.
-                    if _re and _re.group('optional_close_bracket') != '':
+                    if (_re and _re.group('optional_close_bracket') != '') or (re and "All carriers except" in data):
                         self.version_open = True
                         tokens = data.split(" ")
                         self.images.setdefault(
@@ -106,10 +101,9 @@ def get_build_id_to_aosp_tag_mapping(aosp_tags):
                 mapping[build_id] = aosp_tag
     return mapping
 
-default_android_version = "10.0"
+default_android_version = "11.0"
 config_file = "config.json"
 all_devices = [
-    "marlin", "sailfish",
     "walleye", "taimen",
     "blueline", "crosshatch",
     "sargo", "bonito",
