@@ -4,7 +4,6 @@ import os
 import subprocess
 import shutil
 import logging
-import concurrent.futures
 import argparse
 
 format = "%(asctime)s: %(message)s"
@@ -14,6 +13,14 @@ config_file = "config.json"
 apv_metadata_file = "apv-metadata.json"
 android_prepare_vendor_repo = "https://github.com/AOSPAlliance/android-prepare-vendor.git"
 temp_out_dir = "out"
+
+all_devices = [
+    "walleye", "taimen",
+    "blueline", "crosshatch",
+    "sargo", "bonito",
+    "flame", "coral",
+    "sunfish"
+]
 
 def execute_apv(device, build_id, temp_out, metadata_only, cleanup):
     logging.info("device {}: running android-prepare-vendor with build_id {}".format(device, build_id))
@@ -44,11 +51,12 @@ def execute_apv(device, build_id, temp_out, metadata_only, cleanup):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-t', '--threads', default=1, help='how many threads to use', type=int)
-    parser.add_argument('-m', '--metadata', default=False, help='only copy metadata txt files', action='store_true')
-    parser.add_argument('-c', '--cleanup', default=True, help='cleanup output directory data for each device', action='store_true')
+    parser.add_argument('-d', '--devices', default=",".join(all_devices), help='devices to execute', type=str)
+    parser.add_argument('-m', '--metadata', default=True, help='only copy metadata txt files', action='store_true')
+    parser.add_argument('-c', '--cleanup', default=True, help='cleanup output directory data for device', action='store_true')
     parser.add_argument('-r', '--repo', default=android_prepare_vendor_repo, help='android prepare vendor git repo', type=str)
     args = parser.parse_args()
+    devices = [d for d in args.devices.split(',')]
 
     logging.info("creating output directory: {}".format(temp_out_dir))
     os.makedirs(temp_out_dir, exist_ok=True)
@@ -59,18 +67,20 @@ if __name__ == "__main__":
     repo = git.Repo.clone_from(args.repo, temp_out_dir_apv)
 
     logging.info("using android-prepare-vendor latest commit: {} - {}".format(str(repo.head.commit.hexsha), str(repo.head.commit.message)))
-    apv_metadata = {
-        'repo': android_prepare_vendor_repo,
-        'commit': str(repo.head.commit.hexsha),
-        'message': str(repo.head.commit.message)
-    }
-    apv_metadata_json_output = json.dumps(apv_metadata, indent=2)
-    with open(apv_metadata_file, "w") as outfile:
-        outfile.writelines(apv_metadata_json_output)
+    with open(apv_metadata_file, 'r+') as f:
+        apv_metadata = json.load(f)
+        for device in devices:
+            apv_metadata['devices'].setdefault(device, {})
+            apv_metadata['devices'][device] = {
+                'repo': args.repo,
+                'commit': str(repo.head.commit.hexsha),
+                'message': str(repo.head.commit.message)
+            }
+        f.seek(0)
+        json.dump(apv_metadata, f, indent=2)
+        f.truncate()
 
     with open(config_file) as f:
         config = json.load(f)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=args.threads) as executor:
-            future_apv = {executor.submit(execute_apv, device, config['devices'][device]['build_id'], temp_out_dir, args.metadata, args.cleanup): device for device in config['devices']}
-            for future in concurrent.futures.as_completed(future_apv):
-                data = future.result()
+        for device in devices:
+            execute_apv(device, config['devices'][device]['build_id'], temp_out_dir, args.metadata, args.cleanup)

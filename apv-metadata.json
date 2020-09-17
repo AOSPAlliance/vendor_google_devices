@@ -1,0 +1,37 @@
+{
+  "devices": {
+    "blueline": {
+      "commit": "",
+      "message": ""
+    },
+    "crosshatch": {
+      "commit": "",
+      "message": ""
+    },
+    "sargo": {
+      "commit": "",
+      "message": ""
+    },
+    "bonito": {
+      "commit": "",
+      "message": ""
+    },
+    "flame": {
+      "commit": "",
+      "message": ""
+    },
+    "coral": {
+      "commit": "",
+      "message": ""
+    },
+    "sunfish": {
+      "commit": "",
+      "message": ""
+    },
+    "walleye": {
+      "repo": "https://github.com/AOSPAlliance/android-prepare-vendor.git",
+      "commit": "8868b90c6b5deeb814cdffd6eb9dfcba93b68422",
+      "message": "taimen/walleye: fix camera\n"
+    }
+  }
+}

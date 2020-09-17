@@ -1,6 +1,12 @@
 name: Execute APV
 
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+    inputs:
+      devices:
+        description: Devices
+        default: walleye,taimen,blueline,crosshatch,sargo,bonito,flame,coral,sunfish
+        required: true
 
 jobs:
   update:
@@ -14,8 +20,41 @@ jobs:
     - name: Install python3 dependencies
       run: sudo apt-get -y install python3-setuptools && pip3 install --user pyyaml gitpython
 
-    - name: Run android-prepare-vendor for each device
-      run: python3 execute_apv.py --metadata --threads 2
+    - name: Run android-prepare-vendor for walleye
+      run: python3 execute_apv.py -d walleye
+      if: ${{ contains(github.event.inputs.devices, 'walleye') }}
+
+    - name: Run android-prepare-vendor for taimen
+      run: python3 execute_apv.py -d taimen
+      if: ${{ contains(github.event.inputs.devices, 'taimen') }}
+
+    - name: Run android-prepare-vendor for blueline
+      run: python3 execute_apv.py -d blueline
+      if: ${{ contains(github.event.inputs.devices, 'blueline') }}
+
+    - name: Run android-prepare-vendor for crosshatch
+      run: python3 execute_apv.py -d crosshatch
+      if: ${{ contains(github.event.inputs.devices, 'crosshatch') }}
+
+    - name: Run android-prepare-vendor for sargo
+      run: python3 execute_apv.py -d sargo
+      if: ${{ contains(github.event.inputs.devices, 'sargo') }}
+
+    - name: Run android-prepare-vendor for bonito
+      run: python3 execute_apv.py -d bonito
+      if: ${{ contains(github.event.inputs.devices, 'bonito') }}
+
+    - name: Run android-prepare-vendor for flame
+      run: python3 execute_apv.py -d flame
+      if: ${{ contains(github.event.inputs.devices, 'flame') }}
+
+    - name: Run android-prepare-vendor for coral
+      run: python3 execute_apv.py -d coral
+      if: ${{ contains(github.event.inputs.devices, 'coral') }}
+
+    - name: Run android-prepare-vendor for sunfish
+      run: python3 execute_apv.py -d sunfish
+      if: ${{ contains(github.event.inputs.devices, 'sunfish') }}
 
     - name: Git diff
       run: git diff
@@ -23,10 +62,10 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v3
       with:
-        commit-message: Automated update of vendor_google_devices
+        commit-message: Automated update of vendor_google_devices for ${{ github.event.inputs.devices }}
         committer: GitHub <noreply@github.com>
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        title: 'Automated update of vendor_google_devices'
+        title: 'Automated update of vendor_google_devices for ${{ github.event.inputs.devices }}'
         labels: |
           automated pr
         assignees: dan-v
