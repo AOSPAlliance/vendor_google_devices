@@ -4,7 +4,6 @@ import os
 import subprocess
 import shutil
 import logging
-import concurrent.futures
 import argparse
 
 format = "%(asctime)s: %(message)s"
@@ -44,9 +43,9 @@ def execute_apv(device, build_id, temp_out, metadata_only, cleanup):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-t', '--threads', default=1, help='how many threads to use', type=int)
-    parser.add_argument('-m', '--metadata', default=False, help='only copy metadata txt files', action='store_true')
-    parser.add_argument('-c', '--cleanup', default=True, help='cleanup output directory data for each device', action='store_true')
+    parser.add_argument('-d', '--device', required=True, help='what device to execute (e.g. sunfish)', type=str)
+    parser.add_argument('-m', '--metadata', default=True, help='only copy metadata txt files', action='store_true')
+    parser.add_argument('-c', '--cleanup', default=True, help='cleanup output directory data for device', action='store_true')
     parser.add_argument('-r', '--repo', default=android_prepare_vendor_repo, help='android prepare vendor git repo', type=str)
     args = parser.parse_args()
 
@@ -70,7 +69,4 @@ if __name__ == "__main__":
 
     with open(config_file) as f:
         config = json.load(f)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=args.threads) as executor:
-            future_apv = {executor.submit(execute_apv, device, config['devices'][device]['build_id'], temp_out_dir, args.metadata, args.cleanup): device for device in config['devices']}
-            for future in concurrent.futures.as_completed(future_apv):
-                data = future.result()
+        execute_apv(args.device, config['devices'][args.device]['build_id'], temp_out_dir, args.metadata, args.cleanup)

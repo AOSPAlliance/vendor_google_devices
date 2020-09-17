@@ -2,22 +2,6 @@
   "version": "11.0",
   "datetime": 1599622348,
   "devices": {
-    "walleye": {
-      "build_id": "RP1A.200720.009",
-      "aosp_tag": "android-11.0.0_r1",
-      "factory_url": "https://dl.google.com/dl/android/aosp/walleye-rp1a.200720.009-factory-55e6ce7b.zip",
-      "factory_sha256": "55e6ce7b4a1b9e1a619bdc278f8e9da4f577acabfc13a29fc73bef0ccceb1709",
-      "ota_url": "https://dl.google.com/dl/android/aosp/walleye-ota-rp1a.200720.009-90cc52a4.zip",
-      "ota_sha256": "90cc52a4d9893d384326c5f0fb69360d2fba5428a1456141c31ff05f6e1870c3"
-    },
-    "taimen": {
-      "build_id": "RP1A.200720.009",
-      "aosp_tag": "android-11.0.0_r1",
-      "factory_url": "https://dl.google.com/dl/android/aosp/taimen-rp1a.200720.009-factory-f2d162ef.zip",
-      "factory_sha256": "f2d162efe821721e9e7839065514fbb25a1d659078f2e8e5ef3ecaa2804cf954",
-      "ota_url": "https://dl.google.com/dl/android/aosp/taimen-ota-rp1a.200720.009-a5a90702.zip",
-      "ota_sha256": "a5a90702c6b6d89913e33fb2e5d21f45aad37d43c663ea03b8d54697ec7117e9"
-    },
     "blueline": {
       "build_id": "RP1A.200720.009",
       "aosp_tag": "android-11.0.0_r1",
