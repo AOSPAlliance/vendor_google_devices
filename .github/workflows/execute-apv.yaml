@@ -12,7 +12,7 @@ jobs:
       run: sudo apt-get -y install python3-setuptools && pip3 install --user pyyaml gitpython protobuf
 
     - name: Run android-prepare-vendor for each device
-      run: python3 execute_apv.py --metadata --threads 2
+      run: python3 execute_apv.py --metadata --threads 1
 
     - name: Git diff
       run: git diff
