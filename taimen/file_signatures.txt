@@ -1,10 +1,10 @@
-f2b3b0b5b046e4df7057e536975e9f179211243c  vendor/google_devices/taimen/Android.mk
-56e6098bb6011a694fcc0cbd55f34eb825a626eb  vendor/google_devices/taimen/AndroidBoardVendor.mk
-d74b366841e4a901a6a0038011d7ca2f2e201914  vendor/google_devices/taimen/proprietary/BoardConfigVendor.mk
+0fd03e12c4ea7b4176a0b447ec06fd21c0efdd06  vendor/google_devices/taimen/Android.mk
+3f9f6d73fdba4122eda2dc0cc20782a2fae553ff  vendor/google_devices/taimen/AndroidBoardVendor.mk
+94206600d8c762b708e19bfc3b197a5ab1fb4942  vendor/google_devices/taimen/proprietary/BoardConfigVendor.mk
 86ab859e7d22aae25e00cad4dd002365a2b59f40  vendor/google_devices/taimen/proprietary/app/ims/ims.apk
 7e5e453b7f69e04fdfbfbe72f0814edee5519dd4  vendor/google_devices/taimen/proprietary/app/uceShimService/uceShimService.apk
 2dab3e4e861d5cddd293e78bfb1223b0adbd7fa6  vendor/google_devices/taimen/proprietary/bin/move_widevine_data.sh
-33eab9f05a2c28072c4bff3ca12274595438fe10  vendor/google_devices/taimen/proprietary/device-vendor.mk
+09c24872ae9469e6757b5583220cf78829d93aa5  vendor/google_devices/taimen/proprietary/device-vendor.mk
 19c4f4af0def7f757e81988d028cfad059a41327  vendor/google_devices/taimen/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml
 238e785e9674b27c4b2365958d127533d7293132  vendor/google_devices/taimen/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml
 0f63b632e3a3f114def7aeadaabd13851c8ceec5  vendor/google_devices/taimen/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml
@@ -71,7 +71,7 @@ dcc79be3c1bdf0e0cf48dba8f1a1a7465754df04  vendor/google_devices/taimen/radio/laf
 6a9bb12266c1792a8309368ca0e073de6d454992  vendor/google_devices/taimen/radio/rpm.img
 e9fa900f3db58ac9f0db3f6180568025eff358c3  vendor/google_devices/taimen/radio/tz.img
 92598485360d434a65aa3a791a325e720d73d5c1  vendor/google_devices/taimen/radio/xbl.img
-6937ac72ffcf9abf4f375698575381d49a9bfee4  vendor/google_devices/taimen/taimen-vendor-blobs.mk
+072fccd639cec56f88822c0a81a674cefdeea8f6  vendor/google_devices/taimen/taimen-vendor-blobs.mk
 ed7ad281b7a30e7eee72331f21a871da3683f9d4  vendor/google_devices/taimen/vendor-board-info.txt
 140965604e3c8d477bf0ac7f56db9038df33eda0  vendor/google_devices/taimen/vendor/app/ModemService/ModemService.apk
 88b826a282fa6cf641308dd2b7d162a4148d7b19  vendor/google_devices/taimen/vendor/app/ModemService/oat/arm64/ModemService.odex
