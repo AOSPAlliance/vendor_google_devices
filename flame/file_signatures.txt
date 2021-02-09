@@ -1,9 +1,9 @@
-60820add76479a99b1bee72f7a079356e0a1ceb2  vendor/google_devices/coral/proprietary/BoardConfigVendor.mk
-98752fed48c1ec02ae4aa2100a567536add5ccdd  vendor/google_devices/coral/proprietary/device-vendor.mk
-cb4c93bfd36dc69eed2940aae33ad32fdf955406  vendor/google_devices/flame/Android.mk
-72b5200974db329e27c70bf7d63286c8ce97e83e  vendor/google_devices/flame/AndroidBoardVendor.mk
-1463b791541101efc833f846c7f34d0141c66edf  vendor/google_devices/flame/BoardConfigVendorPartial.mk
-5dca87c33c556ce42bfa2b72b10fddd0b5fec3c4  vendor/google_devices/flame/flame-vendor-blobs.mk
+de313fd79095114c7f8aa1ba472afd24e295f81b  vendor/google_devices/coral/proprietary/BoardConfigVendor.mk
+ceef2b6eb16f83e65828e7e82c9070a1c67d1063  vendor/google_devices/coral/proprietary/device-vendor.mk
+c38e5275d7d11817ab60f30a614477fead0d48d4  vendor/google_devices/flame/Android.mk
+d92e1423942485737a9a4f36a92c4cad34c44119  vendor/google_devices/flame/AndroidBoardVendor.mk
+2e42ea3e44e1ba8a0ba43825d1ce5589f0fb02ae  vendor/google_devices/flame/BoardConfigVendorPartial.mk
+fd842d8a3389d45b50ff652de467b9b5fec9b864  vendor/google_devices/flame/flame-vendor-blobs.mk
 deb36b04928e1a3c8398d8703911b84530e28808  vendor/google_devices/flame/product/etc/apns-conf.xml
 6d0882e1ebacda720831a33f53d42af02e546370  vendor/google_devices/flame/product/lib/libdmengine.so
 fa8829695b89678b4e33b6c5ccb7cc1bbcaa0a48  vendor/google_devices/flame/product/lib/libdmjavaplugin.so

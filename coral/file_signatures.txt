@@ -1,7 +1,7 @@
-8029c1fa939791f759779df101241b3e57ede027  vendor/google_devices/coral/Android.mk
-72b5200974db329e27c70bf7d63286c8ce97e83e  vendor/google_devices/coral/AndroidBoardVendor.mk
-dca3697d8e3f9a534653205379874c2c7f2c47b5  vendor/google_devices/coral/BoardConfigVendorPartial.mk
-a30a9909994898610db644d688043f98d001e52f  vendor/google_devices/coral/coral-vendor-blobs.mk
+509a5a6e45c73a120838d25ba258eb5b998861fe  vendor/google_devices/coral/Android.mk
+d92e1423942485737a9a4f36a92c4cad34c44119  vendor/google_devices/coral/AndroidBoardVendor.mk
+ce52bf45a1bc492e3ad1a28d44ae8a317806360e  vendor/google_devices/coral/BoardConfigVendorPartial.mk
+caf22434c729ab7bf0e3e201878ba3603224ae2a  vendor/google_devices/coral/coral-vendor-blobs.mk
 deb36b04928e1a3c8398d8703911b84530e28808  vendor/google_devices/coral/product/etc/apns-conf.xml
 6d0882e1ebacda720831a33f53d42af02e546370  vendor/google_devices/coral/product/lib/libdmengine.so
 fa8829695b89678b4e33b6c5ccb7cc1bbcaa0a48  vendor/google_devices/coral/product/lib/libdmjavaplugin.so
@@ -17,8 +17,8 @@ f4a00aa772c4285d99ba3b7d4d72122cfdaa40a1  vendor/google_devices/coral/product/li
 95a5bc411c043d67b08ad7fb551cab6b4b4859fd  vendor/google_devices/coral/product/lib64/libsketchology_native.so
 f1c2b03380ca7d2b1f16a7ce18e4b9dfa60fafb7  vendor/google_devices/coral/product/lib64/vendor.display.color@1.0.so
 ec23a37eb7449d72e932b5304b85d60b73f5ef07  vendor/google_devices/coral/product/lib64/vendor.qti.imsrtpservice@3.0.so
-60820add76479a99b1bee72f7a079356e0a1ceb2  vendor/google_devices/coral/proprietary/BoardConfigVendor.mk
-98752fed48c1ec02ae4aa2100a567536add5ccdd  vendor/google_devices/coral/proprietary/device-vendor.mk
+de313fd79095114c7f8aa1ba472afd24e295f81b  vendor/google_devices/coral/proprietary/BoardConfigVendor.mk
+ceef2b6eb16f83e65828e7e82c9070a1c67d1063  vendor/google_devices/coral/proprietary/device-vendor.mk
 eaedaf9a8fff37963fa7f1c60f0f7e4fda54a98f  vendor/google_devices/coral/radio/abl.img
 c88b92dd41ee7c80682cd3aeb2fe58557d905806  vendor/google_devices/coral/radio/aop.img
 3402b47d61488aa5be4128cf865e9adff502d4ee  vendor/google_devices/coral/radio/bootloader.img
