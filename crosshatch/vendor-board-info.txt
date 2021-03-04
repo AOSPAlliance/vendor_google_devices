@@ -1,4 +1,4 @@
 require board=crosshatch
 require partition-exists=product
-require version-bootloader=b1c1-0.3-6863019
-require version-baseband=g845-00146-201008-B-6891496
+require version-bootloader=b1c1-0.3-7065185
+require version-baseband=g845-00166-210105-B-7062333
