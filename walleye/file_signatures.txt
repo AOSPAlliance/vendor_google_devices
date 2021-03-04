@@ -1,7 +1,7 @@
-12b10b96fc991b971e3ce2e6cd03e2f3c52d655c  vendor/google_devices/muskie/proprietary/BoardConfigVendor.mk
-bd9f1755ea3968d8c8a4dd000a68542b87d5e441  vendor/google_devices/muskie/proprietary/device-vendor-walleye.mk
-46765ae5def0a8a2a68fa19ce4f8697b882c5705  vendor/google_devices/walleye/Android.mk
-4f4070aedbd2f7f9ebfc8b220f53708cd1bb0a2c  vendor/google_devices/walleye/AndroidBoardVendor.mk
+93faf06158f188dbc484d235ca853d4de3966b40  vendor/google_devices/muskie/proprietary/BoardConfigVendor.mk
+fe02847c44ad5c583687a83797a0261a9de19d6f  vendor/google_devices/muskie/proprietary/device-vendor-walleye.mk
+3cc74943d228c0e02044b8d3c7c079e96b12c3a5  vendor/google_devices/walleye/Android.mk
+5f1924499789ee89b04ab52fc975433c02bff7c6  vendor/google_devices/walleye/AndroidBoardVendor.mk
 93b2c07484c70f2e5cd56a371d58f86707eaf5dd  vendor/google_devices/walleye/proprietary/app/ims/ims.apk
 58eb2bccf4bd83c3d00c3d3027d2351bd2bf0107  vendor/google_devices/walleye/proprietary/app/uceShimService/uceShimService.apk
 2dab3e4e861d5cddd293e78bfb1223b0adbd7fa6  vendor/google_devices/walleye/proprietary/bin/move_widevine_data.sh
@@ -48,7 +48,7 @@ bef9f1f4a848fc2a4a906ccbe2cb2e6e5268ac87  vendor/google_devices/walleye/propriet
 7001d7f87b7a641a11d6413071fc5a60cdb70a08  vendor/google_devices/walleye/proprietary/lib64/vendor.qti.qcril.am@1.0.so
 697fdecc78f0ae4bb1f20ad862b1b39eeb3bfae2  vendor/google_devices/walleye/proprietary/priv-app/CNEService/CNEService.apk
 2d53f631a6e135ee8c94c39c2885a8cebc657948  vendor/google_devices/walleye/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-be1713f6959d9e7d300017bb119c2a34547fcf05  vendor/google_devices/walleye/proprietary/product/etc/apns-conf.xml
+b8b6f65a9bddca9a1823409d7443525ccf6699bb  vendor/google_devices/walleye/proprietary/product/etc/apns-conf.xml
 9555984819fa144b52475d6d5f5c3b5ac0739bfb  vendor/google_devices/walleye/proprietary/product/etc/permissions/android.hardware.telephony.euicc.xml
 f6c434e227c55371b0cfa995d42d4e3d0c4562ab  vendor/google_devices/walleye/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml
 414d0c12e918e81e4c20843f00b9342f23a07478  vendor/google_devices/walleye/proprietary/product/etc/sysconfig/nexus.xml
@@ -952,4 +952,4 @@ ddb4a1c49cd319fd894f3816e095f6d5a9428634  vendor/google_devices/walleye/vendor/u
 d5df07f040bb383b29f427effae4a9bc986723a8  vendor/google_devices/walleye/vendor/usr/idc/vr-virtual-touchpad-0.idc
 c2bc4a844a9265e54ef3871c2c35a51347f89bc2  vendor/google_devices/walleye/vendor/usr/idc/vr-virtual-touchpad-1.idc
 fb23f38bb75814f5cba1923ebda913d7deea1827  vendor/google_devices/walleye/vendor/usr/keylayout/uinput-fpc.kl
-0b3fe17852a84f321c4e0c10ce7d2652e8fb64e6  vendor/google_devices/walleye/walleye-vendor-blobs.mk
+a7b2e124ee25f0a37b010a588917dfd668405b95  vendor/google_devices/walleye/walleye-vendor-blobs.mk

@@ -1,3 +1,3 @@
 require board=bramble
-require version-bootloader=b5-0.3-6873956
-require version-baseband=g7250-00003-201016-B-6910083
+require version-bootloader=b5-0.3-7051231
+require version-baseband=g7250-00069-210128-B-7108850
