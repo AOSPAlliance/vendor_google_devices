@@ -56,6 +56,10 @@ class AndroidImagesParser(HTMLParser):
                 self.images.setdefault(
                     self.device, {}
                 )["%s_url" % self.type] = self._HTMLParser__starttag_text.split('"')[1]
+            if "https://flash.android.com" in self._HTMLParser__starttag_text and self.version_open == True and self.type == "factory":
+                self.images.setdefault(
+                    self.device, {}
+                )["flash_url"] = self._HTMLParser__starttag_text.split('"')[1]
             if len(data) > 6:
                 if self.hash_pattern.match(data) and self.version_open == True:
                     self.images.setdefault(
