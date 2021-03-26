@@ -1,7 +1,7 @@
-93faf06158f188dbc484d235ca853d4de3966b40  vendor/google_devices/muskie/proprietary/BoardConfigVendor.mk
-fe02847c44ad5c583687a83797a0261a9de19d6f  vendor/google_devices/muskie/proprietary/device-vendor-walleye.mk
-3cc74943d228c0e02044b8d3c7c079e96b12c3a5  vendor/google_devices/walleye/Android.mk
-5f1924499789ee89b04ab52fc975433c02bff7c6  vendor/google_devices/walleye/AndroidBoardVendor.mk
+657085379252b7a089d8955bd24678c42faa905a  vendor/google_devices/muskie/proprietary/BoardConfigVendor.mk
+8d92eec40630da574f467118ac6e9e15b24f59aa  vendor/google_devices/muskie/proprietary/device-vendor-walleye.mk
+ab74a6ecc476308921473630cca8a366202b4c98  vendor/google_devices/walleye/Android.mk
+44c7ddb7f2deda8c91bac8dc3a840e13972eb906  vendor/google_devices/walleye/AndroidBoardVendor.mk
 93b2c07484c70f2e5cd56a371d58f86707eaf5dd  vendor/google_devices/walleye/proprietary/app/ims/ims.apk
 58eb2bccf4bd83c3d00c3d3027d2351bd2bf0107  vendor/google_devices/walleye/proprietary/app/uceShimService/uceShimService.apk
 2dab3e4e861d5cddd293e78bfb1223b0adbd7fa6  vendor/google_devices/walleye/proprietary/bin/move_widevine_data.sh
@@ -952,4 +952,4 @@ ddb4a1c49cd319fd894f3816e095f6d5a9428634  vendor/google_devices/walleye/vendor/u
 d5df07f040bb383b29f427effae4a9bc986723a8  vendor/google_devices/walleye/vendor/usr/idc/vr-virtual-touchpad-0.idc
 c2bc4a844a9265e54ef3871c2c35a51347f89bc2  vendor/google_devices/walleye/vendor/usr/idc/vr-virtual-touchpad-1.idc
 fb23f38bb75814f5cba1923ebda913d7deea1827  vendor/google_devices/walleye/vendor/usr/keylayout/uinput-fpc.kl
-a7b2e124ee25f0a37b010a588917dfd668405b95  vendor/google_devices/walleye/walleye-vendor-blobs.mk
+1bebcfa6de0d439c01a5424b9bf78a3b0af88f3f  vendor/google_devices/walleye/walleye-vendor-blobs.mk

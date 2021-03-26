@@ -1,6 +1,6 @@
-1514f932a524d6169ac4acb98d1eb4372d298e22  vendor/google_devices/sunfish/Android.mk
-49b3e52d1e5b234db2bb80d6cacda5ca126f1149  vendor/google_devices/sunfish/AndroidBoardVendor.mk
-3d264194d66ede43f501f9e48dc1758ed51d277e  vendor/google_devices/sunfish/BoardConfigVendorPartial.mk
+ed964bcadd539df5baf65921a2145abc58bd56b0  vendor/google_devices/sunfish/Android.mk
+9463a2594700f60f1cea8ea28449f4f94232f9dc  vendor/google_devices/sunfish/AndroidBoardVendor.mk
+0a6513c3228df814e9502bc535ab24a45e2a4936  vendor/google_devices/sunfish/BoardConfigVendorPartial.mk
 01e701d96b4956c4d614d3fe5ffad28719019ce8  vendor/google_devices/sunfish/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/sunfish/product/lib/libdmengine.so
 9e366948cee2c30648bdb20e103c220fe19f1ab2  vendor/google_devices/sunfish/product/lib/libdmjavaplugin.so
@@ -14,8 +14,8 @@ c14a25293ff20f7b1c5b08dbee8d12800ccb97b6  vendor/google_devices/sunfish/product/
 49c96556a6f1e76473cd5b282a8aa1c6cbf60cab  vendor/google_devices/sunfish/product/lib64/libsdm-disp-apis.qti.so
 95a5bc411c043d67b08ad7fb551cab6b4b4859fd  vendor/google_devices/sunfish/product/lib64/libsketchology_native.so
 ec23a37eb7449d72e932b5304b85d60b73f5ef07  vendor/google_devices/sunfish/product/lib64/vendor.qti.imsrtpservice@3.0.so
-37c01bd44c250917256d52f711c29c7882739923  vendor/google_devices/sunfish/proprietary/BoardConfigVendor.mk
-8043b29abc069aed804af6bb93c33e2c523c3b15  vendor/google_devices/sunfish/proprietary/device-vendor.mk
+f2361adc520ec9e327cbfa027dc02e9a4dbaaddc  vendor/google_devices/sunfish/proprietary/BoardConfigVendor.mk
+6069a4ceffd9880893e5d483f2130c4566361964  vendor/google_devices/sunfish/proprietary/device-vendor.mk
 8fe8b62f5559c6429389f584ecec6bd1f4482721  vendor/google_devices/sunfish/radio/abl.img
 e5fc5d730f619791da0e4c46ae1dfbb9a1a1ecce  vendor/google_devices/sunfish/radio/aop.img
 0e7133385b9413f6c5193d2aaebc7c00bd4230f8  vendor/google_devices/sunfish/radio/bootloader.img
@@ -29,7 +29,7 @@ f945452cd0b7f9ad569d23b6abc93a42e91f4e4c  vendor/google_devices/sunfish/radio/ra
 346bbd87172aaa5a6adf7687c9c41d12d2169f67  vendor/google_devices/sunfish/radio/uefisecapp.img
 f4c0c729f2fdc4ba130246ad561affac10eb827c  vendor/google_devices/sunfish/radio/xbl.img
 0c3e5957401411a1a514ef46004c08d17d4a1e70  vendor/google_devices/sunfish/radio/xbl_config.img
-59ec56ecacebd9c4a5f2f0f3dd7d3b058bc35419  vendor/google_devices/sunfish/sunfish-vendor-blobs.mk
+f58f73e4e069b64637006c706357e0b5ef03bca6  vendor/google_devices/sunfish/sunfish-vendor-blobs.mk
 774492d534b84d9d06f8e06f414bc99b977f3bc0  vendor/google_devices/sunfish/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 d3104d25ef572d4930da60ccce08a046f4e32a43  vendor/google_devices/sunfish/system_ext/app/datastatusnotification/datastatusnotification.apk
 37ffb9f497b875e3c9d167a053f1cb3af4f23fb6  vendor/google_devices/sunfish/system_ext/app/uceShimService/uceShimService.apk

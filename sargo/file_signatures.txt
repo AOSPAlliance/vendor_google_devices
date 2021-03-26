@@ -1,8 +1,8 @@
-6b31ec53e05f1c6078a4a0bc5c99e24f7bc26de4  vendor/google_devices/bonito/proprietary/BoardConfigVendor.mk
-bdc20c95dcf58247664dd3b78da66d9ee6fc6d75  vendor/google_devices/bonito/proprietary/device-vendor.mk
-8126e56475b6b0185b316bc296aa75686371c656  vendor/google_devices/sargo/Android.mk
-71fea24d429c8f37666bca55ff3d987f4ec2c1ad  vendor/google_devices/sargo/AndroidBoardVendor.mk
-612496a8be0ff4cbb34eb04cbbc96a9004e59557  vendor/google_devices/sargo/BoardConfigVendorPartial.mk
+55c7ae72c44cc8589b288ff577acd7ba677794ca  vendor/google_devices/bonito/proprietary/BoardConfigVendor.mk
+f6a232376c815f04bea7c88a276a0bcb1d4597bb  vendor/google_devices/bonito/proprietary/device-vendor.mk
+56ec4bc10fd4fd1bd78b1acea6fa6f7d060399c8  vendor/google_devices/sargo/Android.mk
+d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/sargo/AndroidBoardVendor.mk
+d9f103e45e9a191dcfb092fed880feb5e295faa8  vendor/google_devices/sargo/BoardConfigVendorPartial.mk
 45909ce7f711c3dd28c813d3001cccb41a2e81de  vendor/google_devices/sargo/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/sargo/product/lib/libdmengine.so
 9e366948cee2c30648bdb20e103c220fe19f1ab2  vendor/google_devices/sargo/product/lib/libdmjavaplugin.so
@@ -70,7 +70,7 @@ ee1f7b395c8c602c1f12761feb5432d6581aeea8  vendor/google_devices/sargo/radio/mode
 5c6caaf4cf4262196a7f4c5231a4ba787bdb8485  vendor/google_devices/sargo/radio/tz.img
 6b3e6271d987f7d34a1a0b385235564f21157793  vendor/google_devices/sargo/radio/xbl.img
 e593de1c73eb2d26aeaf21ecf2e91df20fb683eb  vendor/google_devices/sargo/radio/xbl_config.img
-523f0a93b9d08c37be1bbb003067562408db3797  vendor/google_devices/sargo/sargo-vendor-blobs.mk
+20687f6ba877c43c9ff113d8a8378f491d0621e4  vendor/google_devices/sargo/sargo-vendor-blobs.mk
 b4d7878517f9884700cc3c4baae29f8d912b789b  vendor/google_devices/sargo/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 31e2d755af761fe1e2334c2497b3a18486a83aef  vendor/google_devices/sargo/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 54b5d01695d38c8c9dd5960a48d1737a2474effb  vendor/google_devices/sargo/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar

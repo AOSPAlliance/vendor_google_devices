@@ -1,13 +1,13 @@
-e6c744fbebdb79e9ada04f29a98a6eb9d6c5205e  vendor/google_devices/redfin/Android.mk
-1c33ec15d51d5a89eadce0095fa825611396c359  vendor/google_devices/redfin/AndroidBoardVendor.mk
-938dcb91eab704d4a4cdceba89deaac9b0fa2d6f  vendor/google_devices/redfin/BoardConfigVendorPartial.mk
+d9f618693dd459f0d02f4f8564fbd43f9786406c  vendor/google_devices/redfin/Android.mk
+17d7f97b4fa2b07cf755e7ccd746531ae6ee0016  vendor/google_devices/redfin/AndroidBoardVendor.mk
+7f19f2d4dd33997bc9bfc29ea45c965a2f416a8d  vendor/google_devices/redfin/BoardConfigVendorPartial.mk
 865b92f23a3a884eba5e5cc0134e8c917b2ace48  vendor/google_devices/redfin/product/etc/apns-conf.xml
 bee3959b71657e838e398783b95014bc160cdc42  vendor/google_devices/redfin/product/lib/libdmengine.so
 c550927bb918695a35ed50455092356db178cbd4  vendor/google_devices/redfin/product/lib/libdmjavaplugin.so
 33f7ddb6e33eae07cd4e10a136bd934eb66103cf  vendor/google_devices/redfin/product/lib64/libgdx.so
 95a5bc411c043d67b08ad7fb551cab6b4b4859fd  vendor/google_devices/redfin/product/lib64/libsketchology_native.so
-dfe6b06e6550c05d42e4d141f6c954093b5fc654  vendor/google_devices/redfin/proprietary/BoardConfigVendor.mk
-4a8e323d2e0c7c5a4886f5900997c8ac821368bb  vendor/google_devices/redfin/proprietary/device-vendor.mk
+e49582466cb73ec7f70a05b3807ca3d9db1ec539  vendor/google_devices/redfin/proprietary/BoardConfigVendor.mk
+83054582d00cdbe8dd489f26c54e2ad5512b7a5f  vendor/google_devices/redfin/proprietary/device-vendor.mk
 39ae50448d33891ffbf7711e84db0a9966dc848a  vendor/google_devices/redfin/radio/abl.img
 23e74afc3c4fa0a026b53cdb86e9fd81183312c5  vendor/google_devices/redfin/radio/aop.img
 ab793e39571c4de2839130b9164cc3c7d23f3840  vendor/google_devices/redfin/radio/bootloader.img
@@ -23,7 +23,7 @@ ad8fe61143d50945cec45df2c93007169cb12b6c  vendor/google_devices/redfin/radio/tz.
 8dfcb9cd0c89ff039389c165d9581af6dc275784  vendor/google_devices/redfin/radio/vendor_boot.img
 96d3e25372df314982abda976e95c9bd1e9a1a6e  vendor/google_devices/redfin/radio/xbl.img
 c3d5b41c46035cf2a52328a472c4361219f67a52  vendor/google_devices/redfin/radio/xbl_config.img
-563e93bc0a0b9cae0e27bc742dab566120e83bbb  vendor/google_devices/redfin/redfin-vendor-blobs.mk
+7fe360f498c22091a746ffb1fb9e3b1e4a25f1c1  vendor/google_devices/redfin/redfin-vendor-blobs.mk
 2ccfe353b840ebc868ab20c824b8bdfbf0d05643  vendor/google_devices/redfin/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 dc92b4f666e7d9d8f34097270a69a7ded4cfe2a3  vendor/google_devices/redfin/system_ext/app/datastatusnotification/datastatusnotification.apk
 e4c4826c194d7bdca4e08d5d51803062ac43a17a  vendor/google_devices/redfin/system_ext/app/uceShimService/uceShimService.apk

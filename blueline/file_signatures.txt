@@ -1,7 +1,7 @@
-9b0b4d3791bb4d17bb923140f0efa33c90b334d9  vendor/google_devices/blueline/Android.mk
-71fea24d429c8f37666bca55ff3d987f4ec2c1ad  vendor/google_devices/blueline/AndroidBoardVendor.mk
-d1aeca6a6313ab18ebe73b48b8f2cc64265f0063  vendor/google_devices/blueline/BoardConfigVendorPartial.mk
-0952ba1ff772f449027f2acd19f03b7c1ee5579d  vendor/google_devices/blueline/blueline-vendor-blobs.mk
+c7de1f50f256b82681a4fce7500d2fb51e464f44  vendor/google_devices/blueline/Android.mk
+d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/blueline/AndroidBoardVendor.mk
+b4967821ad154e89ea65a69d5a5f5c8ad146ed4b  vendor/google_devices/blueline/BoardConfigVendorPartial.mk
+3e65089908c5f8779ed0170048af490495074897  vendor/google_devices/blueline/blueline-vendor-blobs.mk
 45909ce7f711c3dd28c813d3001cccb41a2e81de  vendor/google_devices/blueline/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/blueline/product/lib/libdmengine.so
 9e366948cee2c30648bdb20e103c220fe19f1ab2  vendor/google_devices/blueline/product/lib/libdmjavaplugin.so
@@ -1647,5 +1647,5 @@ d88de14334d6aedcad5ee307d698077d5727bddb  vendor/google_devices/blueline/vendor/
 2f1a44db6f4ce6cf30f753b26344873d09a8d5b9  vendor/google_devices/blueline/vendor/ueventd.rc
 27c6f62673dd1d925d94eb2c3796f2dd74fc18c8  vendor/google_devices/blueline/vendor/usr/idc/uinput-fpc.idc
 fb23f38bb75814f5cba1923ebda913d7deea1827  vendor/google_devices/blueline/vendor/usr/keylayout/uinput-fpc.kl
-ad53c32c3a53451ecb07134553cea5b3e4b48ad7  vendor/google_devices/crosshatch/proprietary/BoardConfigVendor.mk
-80251621ca1628f69fd9fc59e4156a48060005c4  vendor/google_devices/crosshatch/proprietary/device-vendor.mk
+b4f875ff1d4ea8e06c3a0f64a92bac4bfe349660  vendor/google_devices/crosshatch/proprietary/BoardConfigVendor.mk
+951328fe0b7b8f616289709fefd768bcfd95102d  vendor/google_devices/crosshatch/proprietary/device-vendor.mk
