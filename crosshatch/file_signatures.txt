@@ -1,6 +1,6 @@
 ddc39b26bdc6d88d0925aeb544e45e57ed5482e8  vendor/google_devices/crosshatch/Android.mk
 d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/crosshatch/AndroidBoardVendor.mk
-1b3728480f84ae80186eed9f5e3677140a3b2c3c  vendor/google_devices/crosshatch/BoardConfigVendorPartial.mk
+79573e9f6cd8400321f6bb11479e5960457ed471  vendor/google_devices/crosshatch/BoardConfigVendorPartial.mk
 57671f4633bc9cc00af63e6a550cd74685752143  vendor/google_devices/crosshatch/crosshatch-vendor-blobs.mk
 45909ce7f711c3dd28c813d3001cccb41a2e81de  vendor/google_devices/crosshatch/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/crosshatch/product/lib/libdmengine.so
@@ -155,7 +155,7 @@ a3c718099be3d9cb2860c4d25f09a6ae184132cf  vendor/google_devices/crosshatch/syste
 d5554b10be82d516d4b129a48876edf6382a2db2  vendor/google_devices/crosshatch/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so
 a88157b093ff85d8a71ac36a9bb3bb42b2601525  vendor/google_devices/crosshatch/vendor-board-info.txt
 45ef78d972270c142020ac46ee3ea0f902d6d059  vendor/google_devices/crosshatch/vendor/app/TimeService/TimeService.apk
-f097bbec77bf4b762f426e123218fbddf42ae5a9  vendor/google_devices/crosshatch/vendor/app/TimeService/oat/arm64/TimeService.odex
+7048cd6a62bbc535bac33e5e2ad90e6cbdf32696  vendor/google_devices/crosshatch/vendor/app/TimeService/oat/arm64/TimeService.odex
 ab02615ed044166a04fc98e793971e3609e6e07e  vendor/google_devices/crosshatch/vendor/app/TimeService/oat/arm64/TimeService.vdex
 3e3a876446f518957fc6030cf88b41803d9c9524  vendor/google_devices/crosshatch/vendor/app/crosshatch_game_driver/crosshatch_game_driver.apk
 960de68549563d858c69776bcc496af8859f206f  vendor/google_devices/crosshatch/vendor/bin/ATFWD-daemon
@@ -196,7 +196,7 @@ a0debe32a87ce69c85f7ace93f517ade2336f483  vendor/google_devices/crosshatch/vendo
 1627cd120021e95f4d7f9ace399a68bc8e09cfa6  vendor/google_devices/crosshatch/vendor/bin/hw/android.hardware.weaver@1.0-service.citadel
 0bfedf5e2d61e67ae3cc45bfd346db33c5be6db5  vendor/google_devices/crosshatch/vendor/bin/hw/citadel_updater
 a6cc539ce85f8581c34d4e9e4fa0e100d64ec59e  vendor/google_devices/crosshatch/vendor/bin/hw/citadeld
-3389a31b0e6ead866c28563850cec1949635a51e  vendor/google_devices/crosshatch/vendor/bin/hw/init_citadel
+c2392dcdb181c5594d959c9b1209b455c4c2da4d  vendor/google_devices/crosshatch/vendor/bin/hw/init_citadel
 dabd9527cac3eda735d1901e1a78e4f0297def14  vendor/google_devices/crosshatch/vendor/bin/hw/qcrild
 39a3b26958fa43bbb7d45e986071a84c614a662b  vendor/google_devices/crosshatch/vendor/bin/hw/vendor.google.google_battery@1.1-service-vendor
 acae675d4c21266ceb6f90a89b7d7e05122cc73a  vendor/google_devices/crosshatch/vendor/bin/hw/vendor.google.radioext@1.0-service
@@ -623,8 +623,8 @@ e77ee2fdc55528b9d6886845205c040f1a46079d  vendor/google_devices/crosshatch/vendo
 da39a3ee5e6b4b0d3255bfef95601890afd80709  vendor/google_devices/crosshatch/vendor/firmware/cdsp.b11
 a2e6ed6e8d2d0c25e2a750d323dac6e539456d17  vendor/google_devices/crosshatch/vendor/firmware/cdsp.mdt
 c8fc09714ed572b8440404cfcc4e8b2bc5e6cd55  vendor/google_devices/crosshatch/vendor/firmware/cdspr.jsn
-ada881cc6c284672e6d66c229595f19139849286  vendor/google_devices/crosshatch/vendor/firmware/citadel/ec.bin
-534f889078ab1d574cdc15c449d3c3488af78379  vendor/google_devices/crosshatch/vendor/firmware/citadel/ec.rec
+0837d1419a5a282beb95f99f6ae3108fef4cce60  vendor/google_devices/crosshatch/vendor/firmware/citadel/ec.bin
+52b40b543b42d8bfcc5f12c180ba10b4e394b1d8  vendor/google_devices/crosshatch/vendor/firmware/citadel/ec.rec
 902fef2e4d05d481c4f68967e09d275137187d03  vendor/google_devices/crosshatch/vendor/firmware/cmnlib.b00
 440d7327897b6547d6ed5a524f3cef9eab33239c  vendor/google_devices/crosshatch/vendor/firmware/cmnlib.b01
 c4d831162e216b68b9fc4f4b48edacd6f5751136  vendor/google_devices/crosshatch/vendor/firmware/cmnlib.b02
@@ -758,9 +758,9 @@ c03cb8b2a8daaeb4ebc72d969cec440154e766b9  vendor/google_devices/crosshatch/vendo
 3e6459f580be95e7ed0e11dfd881e86aaa831434  vendor/google_devices/crosshatch/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 607bad5d3f48db82bee74f3009bff7c48d163f5c  vendor/google_devices/crosshatch/vendor/firmware/wlanmdsp.mbn
 d95f4560564de64d575c4cd016336d364d287161  vendor/google_devices/crosshatch/vendor/framework/com.google.android.camera.experimental2018.jar
-63d70baee65678c103bb91f554ceee8a29f25d4c  vendor/google_devices/crosshatch/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
+d7b70881719c97fb21c3c7cfa3ad89442490b10c  vendor/google_devices/crosshatch/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/crosshatch/vendor/framework/oat/arm/com.google.android.camera.experimental2018.vdex
-d0b7fb3c489d248b468f18e2ec28ca31d095dc68  vendor/google_devices/crosshatch/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
+34fb253b3795e3de5fb6da539422b172f1cc5afe  vendor/google_devices/crosshatch/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/crosshatch/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.vdex
 00b2977ce0aa89ab29d045b29344ba5898fcbf41  vendor/google_devices/crosshatch/vendor/lib/android.hardware.sensors@2.0-impl.so
 0ce4a8594aa0ab3ce6b38f445c66347b4934ded2  vendor/google_devices/crosshatch/vendor/lib/btaudio_offload_if.so
@@ -1366,7 +1366,7 @@ d8d73c7c5bcf0378d14b37e9febd7ce238ad6344  vendor/google_devices/crosshatch/vendo
 8f3120506fb8574923257bdfcd7bd5099d211152  vendor/google_devices/crosshatch/vendor/lib64/libwlcproto.so
 0ccd882cca56e9139f3b001255a0b776afb961fd  vendor/google_devices/crosshatch/vendor/lib64/libwms.so
 f7aeed41df014198878d471fd072838afca418ac  vendor/google_devices/crosshatch/vendor/lib64/libwqe.so
-0c53d29c39b8d230d7592b157cfaaf5f395251be  vendor/google_devices/crosshatch/vendor/lib64/libwvhidl.so
+baae2e9c3e2f31f06787de1801b30fd8881b99e8  vendor/google_devices/crosshatch/vendor/lib64/libwvhidl.so
 20936e889ace874dc73399efb09f9991ae84c09a  vendor/google_devices/crosshatch/vendor/lib64/libxml.so
 225de5b7a8312104a7f4b8d622a329cbf6c6f9d0  vendor/google_devices/crosshatch/vendor/lib64/qcrild_librilutils.so
 481cdec174e77e5cb555d715057170568892a18f  vendor/google_devices/crosshatch/vendor/lib64/rfsa/adsp/libdsp_streamer_add_constant.so

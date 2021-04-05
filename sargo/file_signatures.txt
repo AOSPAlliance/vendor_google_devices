@@ -2,7 +2,7 @@
 f6a232376c815f04bea7c88a276a0bcb1d4597bb  vendor/google_devices/bonito/proprietary/device-vendor.mk
 56ec4bc10fd4fd1bd78b1acea6fa6f7d060399c8  vendor/google_devices/sargo/Android.mk
 d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/sargo/AndroidBoardVendor.mk
-d9f103e45e9a191dcfb092fed880feb5e295faa8  vendor/google_devices/sargo/BoardConfigVendorPartial.mk
+62d3d494582b06713077e17fbde06a301e946b33  vendor/google_devices/sargo/BoardConfigVendorPartial.mk
 45909ce7f711c3dd28c813d3001cccb41a2e81de  vendor/google_devices/sargo/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/sargo/product/lib/libdmengine.so
 9e366948cee2c30648bdb20e103c220fe19f1ab2  vendor/google_devices/sargo/product/lib/libdmjavaplugin.so
@@ -155,7 +155,7 @@ a3c718099be3d9cb2860c4d25f09a6ae184132cf  vendor/google_devices/sargo/system_ext
 d5554b10be82d516d4b129a48876edf6382a2db2  vendor/google_devices/sargo/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so
 c09afcd70a4214f89a5e235d6bf7b2fbfa4a5394  vendor/google_devices/sargo/vendor-board-info.txt
 b39b97462e5d8cb266a4a4b8b9991763edf558f8  vendor/google_devices/sargo/vendor/app/TimeService/TimeService.apk
-f097bbec77bf4b762f426e123218fbddf42ae5a9  vendor/google_devices/sargo/vendor/app/TimeService/oat/arm64/TimeService.odex
+7048cd6a62bbc535bac33e5e2ad90e6cbdf32696  vendor/google_devices/sargo/vendor/app/TimeService/oat/arm64/TimeService.odex
 ab02615ed044166a04fc98e793971e3609e6e07e  vendor/google_devices/sargo/vendor/app/TimeService/oat/arm64/TimeService.vdex
 07656f8b4940c36c25aa452dc7c3694cbe255a17  vendor/google_devices/sargo/vendor/bin/ATFWD-daemon
 802a7450ebc6ffd0edd7bf82d7c588d3e50d16dd  vendor/google_devices/sargo/vendor/bin/KmInstallKeybox
@@ -196,7 +196,7 @@ ff3b31e30304488a85af32e586fb7606afc311b4  vendor/google_devices/sargo/vendor/bin
 1627cd120021e95f4d7f9ace399a68bc8e09cfa6  vendor/google_devices/sargo/vendor/bin/hw/android.hardware.weaver@1.0-service.citadel
 0bfedf5e2d61e67ae3cc45bfd346db33c5be6db5  vendor/google_devices/sargo/vendor/bin/hw/citadel_updater
 a6cc539ce85f8581c34d4e9e4fa0e100d64ec59e  vendor/google_devices/sargo/vendor/bin/hw/citadeld
-3389a31b0e6ead866c28563850cec1949635a51e  vendor/google_devices/sargo/vendor/bin/hw/init_citadel
+c2392dcdb181c5594d959c9b1209b455c4c2da4d  vendor/google_devices/sargo/vendor/bin/hw/init_citadel
 dabd9527cac3eda735d1901e1a78e4f0297def14  vendor/google_devices/sargo/vendor/bin/hw/qcrild
 39a3b26958fa43bbb7d45e986071a84c614a662b  vendor/google_devices/sargo/vendor/bin/hw/vendor.google.google_battery@1.1-service-vendor
 dc86571d350ceb164a88637f53d038568bf678bd  vendor/google_devices/sargo/vendor/bin/hw/vendor.google.radioext@1.0-service
@@ -646,8 +646,8 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  vendor/google_devices/sargo/vendor/fir
 bbab23709593bea7686f0c9bde05d636d1cd35a3  vendor/google_devices/sargo/vendor/firmware/cdsp.mbn
 0e37e45e184287f44567b826409a0dce6a7221d6  vendor/google_devices/sargo/vendor/firmware/cdsp.mdt
 c8fc09714ed572b8440404cfcc4e8b2bc5e6cd55  vendor/google_devices/sargo/vendor/firmware/cdspr.jsn
-ada881cc6c284672e6d66c229595f19139849286  vendor/google_devices/sargo/vendor/firmware/citadel/ec.bin
-534f889078ab1d574cdc15c449d3c3488af78379  vendor/google_devices/sargo/vendor/firmware/citadel/ec.rec
+0837d1419a5a282beb95f99f6ae3108fef4cce60  vendor/google_devices/sargo/vendor/firmware/citadel/ec.bin
+52b40b543b42d8bfcc5f12c180ba10b4e394b1d8  vendor/google_devices/sargo/vendor/firmware/citadel/ec.rec
 5c8cb7a3d480857b07bcd56b4c65185142ed5cda  vendor/google_devices/sargo/vendor/firmware/cmnlib.b00
 bd1398d85e5b1719934c846b0e0dcc7d5d651622  vendor/google_devices/sargo/vendor/firmware/cmnlib.b01
 9331722e1ce30cc92a501f0ee3b79c2d97a96dfe  vendor/google_devices/sargo/vendor/firmware/cmnlib.b02
@@ -696,7 +696,7 @@ f1b388690c0772374fc838bdbb6810afda946f28  vendor/google_devices/sargo/vendor/fir
 f0012b0e06f182e685c1e9743382f8c746351786  vendor/google_devices/sargo/vendor/firmware/easel/fip.bin
 da39a3ee5e6b4b0d3255bfef95601890afd80709  vendor/google_devices/sargo/vendor/firmware/easel/hdrplus_shot_pcgs/empty.txt
 94156b533510468e25c0593a66417b5268192406  vendor/google_devices/sargo/vendor/firmware/easel/mnh.dtb
-964db54fde5cd3fc5ae485f1dc28808984584ce7  vendor/google_devices/sargo/vendor/firmware/easel/ramdisk.img
+a0cacd5dc3150d2fa1d79bcda37a271822b5ca25  vendor/google_devices/sargo/vendor/firmware/easel/ramdisk.img
 c82eb929449dae358b59f02bb8717b432bf864f6  vendor/google_devices/sargo/vendor/firmware/fpctzappfingerprint.b00
 9464ce5e93fa4453c623436a97ff391d3c29fd59  vendor/google_devices/sargo/vendor/firmware/fpctzappfingerprint.b01
 92aa8a2de7fb6d002535af43f50e55e2f6e6ab42  vendor/google_devices/sargo/vendor/firmware/fpctzappfingerprint.b02
@@ -743,9 +743,9 @@ a393b45f005e58725675c78ffe4bb7bbba96eff6  vendor/google_devices/sargo/vendor/fir
 ac8f9b24986cd6403f97280d326f8cab44316fda  vendor/google_devices/sargo/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 26e7e178bd00c429b4cf4721bf3d9532734c25a2  vendor/google_devices/sargo/vendor/firmware/wlanmdsp.mbn
 d95f4560564de64d575c4cd016336d364d287161  vendor/google_devices/sargo/vendor/framework/com.google.android.camera.experimental2018.jar
-63d70baee65678c103bb91f554ceee8a29f25d4c  vendor/google_devices/sargo/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
+d7b70881719c97fb21c3c7cfa3ad89442490b10c  vendor/google_devices/sargo/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/sargo/vendor/framework/oat/arm/com.google.android.camera.experimental2018.vdex
-d0b7fb3c489d248b468f18e2ec28ca31d095dc68  vendor/google_devices/sargo/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
+34fb253b3795e3de5fb6da539422b172f1cc5afe  vendor/google_devices/sargo/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/sargo/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.vdex
 00b2977ce0aa89ab29d045b29344ba5898fcbf41  vendor/google_devices/sargo/vendor/lib/android.hardware.sensors@2.0-impl.so
 3d74b19a4af6a5b98bcb6679d4a699ad60212194  vendor/google_devices/sargo/vendor/lib/android.hidl.base@1.0.so
@@ -1355,7 +1355,7 @@ f90a83899cbafe2f20cfa0e797ca1e73fbb477db  vendor/google_devices/sargo/vendor/lib
 de2d7620ab1a721b51b377e1c11862ec76736917  vendor/google_devices/sargo/vendor/lib64/libvsc.so
 0e00e064d06235e5d12916859aa4fbe64351e574  vendor/google_devices/sargo/vendor/lib64/libwms.so
 ebae885d3c3feb5e686e26713fdc173d56eb3f06  vendor/google_devices/sargo/vendor/lib64/libwqe.so
-0c53d29c39b8d230d7592b157cfaaf5f395251be  vendor/google_devices/sargo/vendor/lib64/libwvhidl.so
+baae2e9c3e2f31f06787de1801b30fd8881b99e8  vendor/google_devices/sargo/vendor/lib64/libwvhidl.so
 fdd941151f439bedc935c1ee65640580b04162a4  vendor/google_devices/sargo/vendor/lib64/libxml.so
 225de5b7a8312104a7f4b8d622a329cbf6c6f9d0  vendor/google_devices/sargo/vendor/lib64/qcrild_librilutils.so
 89e52a92328525e6c0d43cb3efdb661c0de80cb2  vendor/google_devices/sargo/vendor/lib64/sensors.ssc.so
