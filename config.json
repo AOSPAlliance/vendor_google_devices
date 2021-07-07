@@ -1,6 +1,6 @@
 {
   "version": "11.0",
-  "datetime": 1623107046,
+  "datetime": 1625682706,
   "devices": {
     "walleye": {
       "build_id": "RP1A.201005.004.A1",
@@ -21,85 +21,85 @@
       "ota_sha256": "9de3b96223cf14e8afd69ed9b21b801a15a96990781a7058ac8418ffd78e0dd7"
     },
     "blueline": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=blueline-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/blueline-rq3a.210605.005-factory-53820251.zip",
-      "factory_sha256": "53820251f58e1fff6caaa24dbee010dcace627d2dbff413f13283ca45f59849e",
-      "ota_url": "https://dl.google.com/dl/android/aosp/blueline-ota-rq3a.210605.005-861d669c.zip",
-      "ota_sha256": "861d669cc7d97faf67b308fe31046211782e1e1cda28d04d94a9665b9960ec12"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=blueline-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/blueline-rq3a.210705.001-factory-adc37858.zip",
+      "factory_sha256": "adc37858b3dcba0e48a92fe47901879ce11e8fcea123948f80769f416f12d559",
+      "ota_url": "https://dl.google.com/dl/android/aosp/blueline-ota-rq3a.210705.001-82ac2449.zip",
+      "ota_sha256": "82ac2449d5b61d8ab3fa0ce3b1c992617dd43bc248382a9c5a4be95e5e57019e"
     },
     "crosshatch": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=crosshatch-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/crosshatch-rq3a.210605.005-factory-46501e19.zip",
-      "factory_sha256": "46501e19a2981094c1cc5cdffbeee7756cc345b85d2fe6ace89a8b628654dfdc",
-      "ota_url": "https://dl.google.com/dl/android/aosp/crosshatch-ota-rq3a.210605.005-9cdd2599.zip",
-      "ota_sha256": "9cdd25991531440d7718505024279e13825031a5b16e67d8988ede2286b0a9e3"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=crosshatch-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/crosshatch-rq3a.210705.001-factory-cb8cccb0.zip",
+      "factory_sha256": "cb8cccb0019987c33a47b50349b336030593f914e01c869871fe00724bb23e15",
+      "ota_url": "https://dl.google.com/dl/android/aosp/crosshatch-ota-rq3a.210705.001-ed30292d.zip",
+      "ota_sha256": "ed30292d68ccf00fcc4c0de5030695c110cb22561200ba1af4992ae7c2cf4940"
     },
     "sargo": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=sargo-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/sargo-rq3a.210605.005-factory-ac1ecfd9.zip",
-      "factory_sha256": "ac1ecfd992a67f4ece76fd632e83beca6fbfdcb6b6523106c096c7381afd03bb",
-      "ota_url": "https://dl.google.com/dl/android/aosp/sargo-ota-rq3a.210605.005-731687ca.zip",
-      "ota_sha256": "731687caee44e128bb7b0de29c2bd883995d87d42749f9c20e7faf645cde8abb"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=sargo-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/sargo-rq3a.210705.001-factory-b20022d0.zip",
+      "factory_sha256": "b20022d09fcd173215c0d387a1123e93e7d09a4a247b65cf1fc9074e7bf88492",
+      "ota_url": "https://dl.google.com/dl/android/aosp/sargo-ota-rq3a.210705.001-afdc626f.zip",
+      "ota_sha256": "afdc626fc803a728f6567512ac6a5c5d11152538db39179223e26fc7d8919655"
     },
     "bonito": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=bonito-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/bonito-rq3a.210605.005-factory-66210064.zip",
-      "factory_sha256": "66210064ae7a05527c8217f557cd99a4146d984666ddf5dcfbd5f5a12abbe395",
-      "ota_url": "https://dl.google.com/dl/android/aosp/bonito-ota-rq3a.210605.005-85366886.zip",
-      "ota_sha256": "85366886ce2a073d5e9e8ff0e3a64073064fa8b2936d99f324137744a429a42a"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=bonito-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/bonito-rq3a.210705.001-factory-5d1f2940.zip",
+      "factory_sha256": "5d1f2940b6274553b040e4ca2773a5b31a2f195b7fd397212379c0fde16077c2",
+      "ota_url": "https://dl.google.com/dl/android/aosp/bonito-ota-rq3a.210705.001-7fba4b07.zip",
+      "ota_sha256": "7fba4b0797a1d53234ab5cb4d91bfc600b5e833002f507f4fb661fba5cebd069"
     },
     "flame": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=flame-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/flame-rq3a.210605.005-factory-ab936588.zip",
-      "factory_sha256": "ab9365880d1bdcaa8a5acf7a7c90377c9c91861afbe43ae7019150ee7afc68c3",
-      "ota_url": "https://dl.google.com/dl/android/aosp/flame-ota-rq3a.210605.005-bd45126a.zip",
-      "ota_sha256": "bd45126a0cabef79dcfba3399666b099444788c165c0ac1c02a6f21a5a401f4b"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=flame-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/flame-rq3a.210705.001-factory-545bb567.zip",
+      "factory_sha256": "545bb56729146ad7774913500dd10fd6f3b5ab1b65f0ac6c41736a511d4dd2a6",
+      "ota_url": "https://dl.google.com/dl/android/aosp/flame-ota-rq3a.210705.001-b0145b66.zip",
+      "ota_sha256": "b0145b66985c6f639e363b6ef2f1a47df7944b6f7a5d3ea3a42f0bedbcd629b5"
     },
     "coral": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=coral-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/coral-rq3a.210605.005-factory-31d8d230.zip",
-      "factory_sha256": "31d8d230141c6b8491283150f0ab1ac4bdc5ddc776a685fbee308a2c42910cbe",
-      "ota_url": "https://dl.google.com/dl/android/aosp/coral-ota-rq3a.210605.005-4e7b2427.zip",
-      "ota_sha256": "4e7b24274aa3e0d3bea472a29348916de8cba4629f2e3c873ea7ce41dbcca1df"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=coral-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/coral-rq3a.210705.001-factory-a51415bb.zip",
+      "factory_sha256": "a51415bb8c4d0d65bdf99391407cf5833f877fc524a573293b1b2a208da99d97",
+      "ota_url": "https://dl.google.com/dl/android/aosp/coral-ota-rq3a.210705.001-e4a33ac1.zip",
+      "ota_sha256": "e4a33ac15d8fc0266a7a1d2f44870629c2985b04022b0e285f5debcf9ea3136a"
     },
     "sunfish": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=sunfish-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/sunfish-rq3a.210605.005-factory-be541467.zip",
-      "factory_sha256": "be5414679b4305e75d1e21180ff525c4e3527bf593da57997d6ff618d992ce33",
-      "ota_url": "https://dl.google.com/dl/android/aosp/sunfish-ota-rq3a.210605.005-d44df719.zip",
-      "ota_sha256": "d44df719ef814a437164f0d18fbb1f86a443cac7ed40bf4c92725d3f25d220c4"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=sunfish-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/sunfish-rq3a.210705.001-factory-51f6d2ad.zip",
+      "factory_sha256": "51f6d2ad6ebc58241612dfbd8e48082ceb65071284aba9037d7d43356c4a05ff",
+      "ota_url": "https://dl.google.com/dl/android/aosp/sunfish-ota-rq3a.210705.001-d46c85cd.zip",
+      "ota_sha256": "d46c85cd241f0c2c8fa546eb00dc1bd9b0fac52c7d3afef76371f2275646a875"
     },
     "redfin": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=redfin-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/redfin-rq3a.210605.005-factory-ab2bb3bb.zip",
-      "factory_sha256": "ab2bb3bb3a332fb312068be6bc39f8c6027c04c7b4c37002c4a97378a30da96e",
-      "ota_url": "https://dl.google.com/dl/android/aosp/redfin-ota-rq3a.210605.005-0fd92331.zip",
-      "ota_sha256": "0fd923313cbed3defecc7e455c4b86e98d9f79d4258d511879fd346106140405"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=redfin-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/redfin-rq3a.210705.001-factory-0d97c703.zip",
+      "factory_sha256": "0d97c70366a94cc933d3c8c354b6d17f598935baf53f489fac904379ee8f761d",
+      "ota_url": "https://dl.google.com/dl/android/aosp/redfin-ota-rq3a.210705.001-b7ac9f79.zip",
+      "ota_sha256": "b7ac9f7903bb108d1473729e929ff03586142bffb19cea8d255a65b4d209c03e"
     },
     "bramble": {
-      "build_id": "RQ3A.210605.005",
-      "aosp_tag": "android-11.0.0_r38",
-      "flash_url": "https://flash.android.com/build/7349499?target=bramble-user&signed",
-      "factory_url": "https://dl.google.com/dl/android/aosp/bramble-rq3a.210605.005-factory-7818928d.zip",
-      "factory_sha256": "7818928db2592aceaed2fb5c09fcff7ff19cdf894a69eb0ca832a5f3b2bd7d46",
-      "ota_url": "https://dl.google.com/dl/android/aosp/bramble-ota-rq3a.210605.005-dde0a52c.zip",
-      "ota_sha256": "dde0a52c22d49fe25b8e36a81114fdd8843926cd7fbf9d94dfd15342931cc82c"
+      "build_id": "RQ3A.210705.001",
+      "aosp_tag": "android-11.0.0_r39",
+      "flash_url": "https://flash.android.com/build/7380771?target=bramble-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/bramble-rq3a.210705.001-factory-67bacfc3.zip",
+      "factory_sha256": "67bacfc39da31e6f2a90d68643ea052d0e1890957b35f11e74f517cb3589944a",
+      "ota_url": "https://dl.google.com/dl/android/aosp/bramble-ota-rq3a.210705.001-d0a79868.zip",
+      "ota_sha256": "d0a798683d5af52356ce0fe71464f5b5ddd4f3233a21892b635ef3449730ef85"
     }
   }
 }
