@@ -1,5 +1,6 @@
 657085379252b7a089d8955bd24678c42faa905a  vendor/google_devices/muskie/proprietary/BoardConfigVendor.mk
-8d92eec40630da574f467118ac6e9e15b24f59aa  vendor/google_devices/muskie/proprietary/device-vendor-walleye.mk
+80b992aff01dbcbc9a5c2a9aca2172563731dc75  vendor/google_devices/muskie/proprietary/device-vendor-walleye.mk
+d345d1f51b4264ac672f88a1024cd248a594906a  vendor/google_devices/walleye/Android.bp
 ab74a6ecc476308921473630cca8a366202b4c98  vendor/google_devices/walleye/Android.mk
 44c7ddb7f2deda8c91bac8dc3a840e13972eb906  vendor/google_devices/walleye/AndroidBoardVendor.mk
 93b2c07484c70f2e5cd56a371d58f86707eaf5dd  vendor/google_devices/walleye/proprietary/app/ims/ims.apk
@@ -12,8 +13,6 @@ ab74a6ecc476308921473630cca8a366202b4c98  vendor/google_devices/walleye/Android.
 789297151a9241066d568f2564046bb14301bbc1  vendor/google_devices/walleye/proprietary/etc/firmware/dnd.sound_model
 5435d3e70be28b56ada131cbefe7e2a075797877  vendor/google_devices/walleye/proprietary/etc/firmware/music_detector.descriptor
 5d8ad7c01f898869a00de66d2725891b89998d14  vendor/google_devices/walleye/proprietary/etc/firmware/music_detector.sound_model
-8540750e5a4fbd3ee0bf9aa98bd750e93d15a574  vendor/google_devices/walleye/proprietary/etc/permissions/privapp-permissions-wahoo.xml
-caa99655d8c7dd26863c45adb76e4121d861d446  vendor/google_devices/walleye/proprietary/etc/sysconfig/framework-sysconfig.xml
 ae00ce20eb0d1d2ad0f17f5e8ad993bf01b13354  vendor/google_devices/walleye/proprietary/framework/cneapiclient.jar
 07a4868e4da75a350be792221dc302add7189128  vendor/google_devices/walleye/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar
 c201f4386df7362192e9b2d70534d5f9d356ed54  vendor/google_devices/walleye/proprietary/framework/com.quicinc.cne.jar
@@ -48,11 +47,9 @@ bef9f1f4a848fc2a4a906ccbe2cb2e6e5268ac87  vendor/google_devices/walleye/propriet
 7001d7f87b7a641a11d6413071fc5a60cdb70a08  vendor/google_devices/walleye/proprietary/lib64/vendor.qti.qcril.am@1.0.so
 697fdecc78f0ae4bb1f20ad862b1b39eeb3bfae2  vendor/google_devices/walleye/proprietary/priv-app/CNEService/CNEService.apk
 2d53f631a6e135ee8c94c39c2885a8cebc657948  vendor/google_devices/walleye/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-b8b6f65a9bddca9a1823409d7443525ccf6699bb  vendor/google_devices/walleye/proprietary/product/etc/apns-conf.xml
+83e7fa3572b860fdb6e89d990aa546997fbfcd71  vendor/google_devices/walleye/proprietary/product/etc/apns-conf.xml
 9555984819fa144b52475d6d5f5c3b5ac0739bfb  vendor/google_devices/walleye/proprietary/product/etc/permissions/android.hardware.telephony.euicc.xml
 f6c434e227c55371b0cfa995d42d4e3d0c4562ab  vendor/google_devices/walleye/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml
-414d0c12e918e81e4c20843f00b9342f23a07478  vendor/google_devices/walleye/proprietary/product/etc/sysconfig/nexus.xml
-970582b8c9c6a9bba040535feceea0aba0ff3a09  vendor/google_devices/walleye/proprietary/product/etc/sysconfig/pixel_experience_2017.xml
 739ee8288dcb1cff52325b4b59039a3a33eb61c7  vendor/google_devices/walleye/proprietary/product/framework/libhwinfo.jar
 e13fa70c97caaa24d061678bdee608eb8850a69e  vendor/google_devices/walleye/proprietary/product/lib64/libaptXHD_encoder.so
 df1c89d7af1bb35808d5fe3496b04ba066c10cbc  vendor/google_devices/walleye/proprietary/product/lib64/libaptX_encoder.so
@@ -71,6 +68,9 @@ df4e3f9036a2b4b087ec7e4ed7b9ebd5804c95da  vendor/google_devices/walleye/radio/pm
 6a4180836574d89179840f739bb3027d77ea8c10  vendor/google_devices/walleye/radio/rpm.img
 62c4b97786d8e1b62f117900e0dc40cac6ee9ced  vendor/google_devices/walleye/radio/tz.img
 ea56fc6e812e9942647b138b3804dc4f64822d12  vendor/google_devices/walleye/radio/xbl.img
+316beb26c497da1ab97327c7d3dba04dc22a222a  vendor/google_devices/walleye/rro_overlays/CarrierConfigOverlay/Android.bp
+6d617b9436070a865d1c0b0060b23a63e9ec8c2a  vendor/google_devices/walleye/rro_overlays/CarrierConfigOverlay/AndroidManifest.xml
+cf66f4b43527576b27a373aec8721940a103d5ca  vendor/google_devices/walleye/rro_overlays/CarrierConfigOverlay/res/xml/vendor.xml
 bd7264e58da3c87bd992e9049ba4c6556791a126  vendor/google_devices/walleye/vendor-board-info.txt
 0badf9eec824aeaaf04a702afa921cbe5f030313  vendor/google_devices/walleye/vendor/app/ModemService/ModemService.apk
 88b826a282fa6cf641308dd2b7d162a4148d7b19  vendor/google_devices/walleye/vendor/app/ModemService/oat/arm64/ModemService.odex
@@ -952,4 +952,4 @@ ddb4a1c49cd319fd894f3816e095f6d5a9428634  vendor/google_devices/walleye/vendor/u
 d5df07f040bb383b29f427effae4a9bc986723a8  vendor/google_devices/walleye/vendor/usr/idc/vr-virtual-touchpad-0.idc
 c2bc4a844a9265e54ef3871c2c35a51347f89bc2  vendor/google_devices/walleye/vendor/usr/idc/vr-virtual-touchpad-1.idc
 fb23f38bb75814f5cba1923ebda913d7deea1827  vendor/google_devices/walleye/vendor/usr/keylayout/uinput-fpc.kl
-1bebcfa6de0d439c01a5424b9bf78a3b0af88f3f  vendor/google_devices/walleye/walleye-vendor-blobs.mk
+0209b8540a5740bec96089bf15dc3130ceef1873  vendor/google_devices/walleye/walleye-vendor-blobs.mk

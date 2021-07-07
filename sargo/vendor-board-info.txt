@@ -1,3 +1,3 @@
 require board=sargo
-require version-bootloader=b4s4-0.3-7062600
-require version-baseband=g670-00105-210113-B-7078968
+require version-bootloader=b4s4-0.3-7241616
+require version-baseband=g670-00116-210406-B-7261833

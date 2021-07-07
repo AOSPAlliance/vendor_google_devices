@@ -1,3 +1,3 @@
 require board=flame
-require version-bootloader=c2f2-0.3-7062597
-require version-baseband=g8150-00082-210106-B-7065218
+require version-bootloader=c2f2-0.3-7241749
+require version-baseband=g8150-00088-210507-B-7345963
