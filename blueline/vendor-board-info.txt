@@ -1,4 +1,4 @@
 require board=blueline
 require partition-exists=product
-require version-bootloader=b1c1-0.3-7065185
-require version-baseband=g845-00166-210105-B-7062333
+require version-bootloader=b1c1-0.3-7241706
+require version-baseband=g845-00173-210331-B-7249945

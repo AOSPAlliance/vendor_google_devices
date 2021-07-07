@@ -1,5 +1,5 @@
 {
   "repo": "https://github.com/AOSPAlliance/android-prepare-vendor.git",
-  "commit": "ef8d7134e5e77f8d9efb4e21942eb04db957ff76",
-  "message": "Don't put date in the generated makefiles\n"
+  "commit": "8f6d54dd7f60cea7521eb9fb7aaa3c7e15dd556f",
+  "message": "carriersettings-extractor: Generate carrier version strings\n\nThis generates version strings in the same format as stock\nCarrierSettings (e.g. tmobile_us-21000000082.26) to display in Settings\nfor diagnostic purposes.\n\nChange-Id: I9d8512c0d21d2ace3482e6a4430ff450f8b80498\n"
 }
