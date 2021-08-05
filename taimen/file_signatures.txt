@@ -47,7 +47,7 @@ faee5cdfbe3242e536440189b47c4e6bec7cbc7d  vendor/google_devices/taimen/proprieta
 7001d7f87b7a641a11d6413071fc5a60cdb70a08  vendor/google_devices/taimen/proprietary/lib64/vendor.qti.qcril.am@1.0.so
 c5d144793f9586f7dee009776cf026f22ed40f1a  vendor/google_devices/taimen/proprietary/priv-app/CNEService/CNEService.apk
 bcce2520858e3473a413ed359f15133451d9aa6d  vendor/google_devices/taimen/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-83e7fa3572b860fdb6e89d990aa546997fbfcd71  vendor/google_devices/taimen/proprietary/product/etc/apns-conf.xml
+a8f7fecf6e8fd8a2e8c371f794e3035326c30fd8  vendor/google_devices/taimen/proprietary/product/etc/apns-conf.xml
 9555984819fa144b52475d6d5f5c3b5ac0739bfb  vendor/google_devices/taimen/proprietary/product/etc/permissions/android.hardware.telephony.euicc.xml
 f6c434e227c55371b0cfa995d42d4e3d0c4562ab  vendor/google_devices/taimen/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml
 739ee8288dcb1cff52325b4b59039a3a33eb61c7  vendor/google_devices/taimen/proprietary/product/framework/libhwinfo.jar
