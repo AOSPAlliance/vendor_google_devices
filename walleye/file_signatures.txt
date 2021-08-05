@@ -47,7 +47,7 @@ bef9f1f4a848fc2a4a906ccbe2cb2e6e5268ac87  vendor/google_devices/walleye/propriet
 7001d7f87b7a641a11d6413071fc5a60cdb70a08  vendor/google_devices/walleye/proprietary/lib64/vendor.qti.qcril.am@1.0.so
 697fdecc78f0ae4bb1f20ad862b1b39eeb3bfae2  vendor/google_devices/walleye/proprietary/priv-app/CNEService/CNEService.apk
 2d53f631a6e135ee8c94c39c2885a8cebc657948  vendor/google_devices/walleye/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-83e7fa3572b860fdb6e89d990aa546997fbfcd71  vendor/google_devices/walleye/proprietary/product/etc/apns-conf.xml
+a8f7fecf6e8fd8a2e8c371f794e3035326c30fd8  vendor/google_devices/walleye/proprietary/product/etc/apns-conf.xml
 9555984819fa144b52475d6d5f5c3b5ac0739bfb  vendor/google_devices/walleye/proprietary/product/etc/permissions/android.hardware.telephony.euicc.xml
 f6c434e227c55371b0cfa995d42d4e3d0c4562ab  vendor/google_devices/walleye/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml
 739ee8288dcb1cff52325b4b59039a3a33eb61c7  vendor/google_devices/walleye/proprietary/product/framework/libhwinfo.jar

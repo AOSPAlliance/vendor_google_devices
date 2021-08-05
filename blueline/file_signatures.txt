@@ -1,9 +1,9 @@
 d345d1f51b4264ac672f88a1024cd248a594906a  vendor/google_devices/blueline/Android.bp
 c7de1f50f256b82681a4fce7500d2fb51e464f44  vendor/google_devices/blueline/Android.mk
 d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/blueline/AndroidBoardVendor.mk
-fe292417751eb6535c1fe5f853c4e690ea773c93  vendor/google_devices/blueline/BoardConfigVendorPartial.mk
+f53e45be0a03c0e7f5171d77470ee099d5f027f8  vendor/google_devices/blueline/BoardConfigVendorPartial.mk
 cf132779032c5a33a35f52feaf3320a688668e58  vendor/google_devices/blueline/blueline-vendor-blobs.mk
-7c1179898229cc5574ecf1c8c17bb113e9213d04  vendor/google_devices/blueline/product/etc/apns-conf.xml
+f46192fa2b259307bd5bb25ecc02e036c197eee7  vendor/google_devices/blueline/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/blueline/product/lib/libdmengine.so
 9e366948cee2c30648bdb20e103c220fe19f1ab2  vendor/google_devices/blueline/product/lib/libdmjavaplugin.so
 f81a5d943668aa193abf422f4c61d477f746e3bb  vendor/google_devices/blueline/product/lib/libsecureuisvc_jni.so
@@ -60,7 +60,7 @@ f198429b5d507dab2b8765444305e2e000ad1a5e  vendor/google_devices/blueline/radio/r
 0587d863ec5859eae61471b79d608f8a6ce5bcfb  vendor/google_devices/blueline/radio/xbl_config.img
 316beb26c497da1ab97327c7d3dba04dc22a222a  vendor/google_devices/blueline/rro_overlays/CarrierConfigOverlay/Android.bp
 6d617b9436070a865d1c0b0060b23a63e9ec8c2a  vendor/google_devices/blueline/rro_overlays/CarrierConfigOverlay/AndroidManifest.xml
-87ef0ad28c9f1ca0b95bd621c4b6b9ca44380104  vendor/google_devices/blueline/rro_overlays/CarrierConfigOverlay/res/xml/vendor.xml
+6f30fec038e65f721ac71babe98eccbcf8d71c2e  vendor/google_devices/blueline/rro_overlays/CarrierConfigOverlay/res/xml/vendor.xml
 b4d7878517f9884700cc3c4baae29f8d912b789b  vendor/google_devices/blueline/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 31e2d755af761fe1e2334c2497b3a18486a83aef  vendor/google_devices/blueline/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 54b5d01695d38c8c9dd5960a48d1737a2474effb  vendor/google_devices/blueline/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
@@ -157,7 +157,7 @@ a3c718099be3d9cb2860c4d25f09a6ae184132cf  vendor/google_devices/blueline/system_
 d5554b10be82d516d4b129a48876edf6382a2db2  vendor/google_devices/blueline/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so
 192138f0044a95e1c90204a7a4390dc7870af2d3  vendor/google_devices/blueline/vendor-board-info.txt
 c2ea2591c37ac345fb03c896aa471e5668222a10  vendor/google_devices/blueline/vendor/app/TimeService/TimeService.apk
-3093ed75b64ff25608ca68950c1f5d29a5da0132  vendor/google_devices/blueline/vendor/app/TimeService/oat/arm64/TimeService.odex
+e4b31597c46905d32d632d0a519c4f1e751f32d4  vendor/google_devices/blueline/vendor/app/TimeService/oat/arm64/TimeService.odex
 ab02615ed044166a04fc98e793971e3609e6e07e  vendor/google_devices/blueline/vendor/app/TimeService/oat/arm64/TimeService.vdex
 3e3a876446f518957fc6030cf88b41803d9c9524  vendor/google_devices/blueline/vendor/app/crosshatch_game_driver/crosshatch_game_driver.apk
 9b8dcde45b87de58effdd818cb71bd7c2a7c14c4  vendor/google_devices/blueline/vendor/bin/ATFWD-daemon
@@ -577,7 +577,7 @@ cdfa5951cb22a714b69c95ead32788779d375c05  vendor/google_devices/blueline/vendor/
 deecff8781135e9f807959e6e7754e3776d85a84  vendor/google_devices/blueline/vendor/etc/wifi/wifi_concurrency_cfg.txt
 e45cc792f03fa5158681d7ced57b7f3552e8c433  vendor/google_devices/blueline/vendor/etc/wifi/wpa_supplicant_overlay.conf
 625ad8fad9632653413aa9b185fd7b13f03ffd52  vendor/google_devices/blueline/vendor/firmware/CAMERA_ICP.elf
-effba2934f94626cf43305b8cc62f80c10c17cb0  vendor/google_devices/blueline/vendor/firmware/Data.msc
+a220952a6efad56927e4e321cf29a2363f14e883  vendor/google_devices/blueline/vendor/firmware/Data.msc
 77e760ffd3a27f635b5bd2d0fe4491e87c246341  vendor/google_devices/blueline/vendor/firmware/TEST_MAPPING
 32bb4acc7767c47ddb487ed7cb998d465ee462f2  vendor/google_devices/blueline/vendor/firmware/a630_gmu.bin
 f3957cb638a67be6307c97608c869d56baf0508e  vendor/google_devices/blueline/vendor/firmware/a630_sqe.fw
@@ -757,11 +757,11 @@ f448308e6c8777ce9a43ac1ddb1205a69bc20a16  vendor/google_devices/blueline/vendor/
 c03cb8b2a8daaeb4ebc72d969cec440154e766b9  vendor/google_devices/blueline/vendor/firmware/wil6210.fw
 59d96d4783b12457bc90da310fb6fea4bc0ce573  vendor/google_devices/blueline/vendor/firmware/wil6210_sparrow_plus_ftm.fw
 3e6459f580be95e7ed0e11dfd881e86aaa831434  vendor/google_devices/blueline/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
-0e32b66e31db500b71d9c17e5cc552a755156758  vendor/google_devices/blueline/vendor/firmware/wlanmdsp.mbn
+2f55c48a8943126ff3873467720a24eddefd4abf  vendor/google_devices/blueline/vendor/firmware/wlanmdsp.mbn
 d95f4560564de64d575c4cd016336d364d287161  vendor/google_devices/blueline/vendor/framework/com.google.android.camera.experimental2018.jar
-13aa7fefcce6aac46bd3bd849d8fefa6ef77999e  vendor/google_devices/blueline/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
+c3bc18d968f3d1093273839a6630efbbd9df5545  vendor/google_devices/blueline/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/blueline/vendor/framework/oat/arm/com.google.android.camera.experimental2018.vdex
-8b506ae888a1c3d08eebd948da41eb88042109b8  vendor/google_devices/blueline/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
+af78bf0ecdf449a18c6c78e99d1fcb72e61fea32  vendor/google_devices/blueline/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/blueline/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.vdex
 486365796daf3aaa178c05176ba0f264921744dd  vendor/google_devices/blueline/vendor/lib/android.hardware.sensors@2.0-impl.so
 0ce4a8594aa0ab3ce6b38f445c66347b4934ded2  vendor/google_devices/blueline/vendor/lib/btaudio_offload_if.so
