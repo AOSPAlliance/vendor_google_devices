@@ -1,6 +1,6 @@
 {
   "version": "11.0",
-  "datetime": 1628174005,
+  "datetime": 1630005849,
   "devices": {
     "walleye": {
       "build_id": "RP1A.201005.004.A1",
@@ -100,6 +100,15 @@
       "factory_sha256": "9fda0a3e73304c6d294e43bd99a2c5f647e45870edafdfa4ab1fc24237c92f8a",
       "ota_url": "https://dl.google.com/dl/android/aosp/bramble-ota-rq3a.210805.001.a1-372f0a0a.zip",
       "ota_sha256": "372f0a0aabcad3496257aab6ffcd07c31e4bf4f0615f72578854c50e64811e72"
+    },
+    "barbet": {
+      "build_id": "RD2A.210605.007",
+      "aosp_tag": "android-11.0.0_r42",
+      "flash_url": "https://flash.android.com/build/7381860?target=barbet-user&signed",
+      "factory_url": "https://dl.google.com/dl/android/aosp/barbet-rd2a.210605.007-factory-685c0dfd.zip",
+      "factory_sha256": "685c0dfd9ac9a86562757b3c366e80fb93d456c94704fb1de690e75e8bb9dcc6",
+      "ota_url": "https://dl.google.com/dl/android/aosp/barbet-ota-rd2a.210605.007-c7751714.zip",
+      "ota_sha256": "c77517142e22425397230c87d20c1ef740d27c5b78ee90e9e5edfeacd231782c"
     }
   }
 }
