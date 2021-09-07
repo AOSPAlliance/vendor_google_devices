@@ -1,5 +1,5 @@
 {
   "repo": "https://github.com/AOSPAlliance/android-prepare-vendor.git",
-  "commit": "8f6d54dd7f60cea7521eb9fb7aaa3c7e15dd556f",
-  "message": "carriersettings-extractor: Generate carrier version strings\n\nThis generates version strings in the same format as stock\nCarrierSettings (e.g. tmobile_us-21000000082.26) to display in Settings\nfor diagnostic purposes.\n\nChange-Id: I9d8512c0d21d2ace3482e6a4430ff450f8b80498\n"
+  "commit": "227f5ce7cd89a3f57291fe2b84869c7a5d1e17fa",
+  "message": "redbull welcomes its newest member\n\n* barbet, Pixel 5a\n* Only difference is missing product/lib64/libgdx.so\n"
 }
