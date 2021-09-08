@@ -1,7 +1,7 @@
 d345d1f51b4264ac672f88a1024cd248a594906a  vendor/google_devices/bonito/Android.bp
 a71fb5266fe05ebec06c54ae337a70b37137acb2  vendor/google_devices/bonito/Android.mk
 d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/bonito/AndroidBoardVendor.mk
-466b38a7c5d9ce664971b0c75a4be6388ee984d1  vendor/google_devices/bonito/BoardConfigVendorPartial.mk
+d920f344605c5b51950fc972317675534842d28b  vendor/google_devices/bonito/BoardConfigVendorPartial.mk
 7256d0ccde46118406ff93e647070593523c3b2a  vendor/google_devices/bonito/bonito-vendor-blobs.mk
 f46192fa2b259307bd5bb25ecc02e036c197eee7  vendor/google_devices/bonito/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/bonito/product/lib/libdmengine.so
@@ -159,7 +159,7 @@ a3c718099be3d9cb2860c4d25f09a6ae184132cf  vendor/google_devices/bonito/system_ex
 d5554b10be82d516d4b129a48876edf6382a2db2  vendor/google_devices/bonito/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so
 b3cb6e94ec00a51017797bf919219d16156c5e06  vendor/google_devices/bonito/vendor-board-info.txt
 b39b97462e5d8cb266a4a4b8b9991763edf558f8  vendor/google_devices/bonito/vendor/app/TimeService/TimeService.apk
-e4b31597c46905d32d632d0a519c4f1e751f32d4  vendor/google_devices/bonito/vendor/app/TimeService/oat/arm64/TimeService.odex
+9a2e624271cb6fa0580df1674262bcfab5b38c4d  vendor/google_devices/bonito/vendor/app/TimeService/oat/arm64/TimeService.odex
 ab02615ed044166a04fc98e793971e3609e6e07e  vendor/google_devices/bonito/vendor/app/TimeService/oat/arm64/TimeService.vdex
 93eaacf3206dca4498fcf936115c566f679efd0f  vendor/google_devices/bonito/vendor/bin/ATFWD-daemon
 bbb384c2af12301d18a1c6343bd4b08eb6c6161c  vendor/google_devices/bonito/vendor/bin/KmInstallKeybox
@@ -699,7 +699,7 @@ baddd3c63f23b84982f1ed1bdd957483a6dc44b3  vendor/google_devices/bonito/vendor/fi
 f0012b0e06f182e685c1e9743382f8c746351786  vendor/google_devices/bonito/vendor/firmware/easel/fip.bin
 da39a3ee5e6b4b0d3255bfef95601890afd80709  vendor/google_devices/bonito/vendor/firmware/easel/hdrplus_shot_pcgs/empty.txt
 94156b533510468e25c0593a66417b5268192406  vendor/google_devices/bonito/vendor/firmware/easel/mnh.dtb
-94cfc7448b877f4fbca9db44202a983fc20906cf  vendor/google_devices/bonito/vendor/firmware/easel/ramdisk.img
+6a611368e8f5becfef3ef393f68eb6b3733a50a7  vendor/google_devices/bonito/vendor/firmware/easel/ramdisk.img
 c82eb929449dae358b59f02bb8717b432bf864f6  vendor/google_devices/bonito/vendor/firmware/fpctzappfingerprint.b00
 e1a6a3a178221f637274d8ea689e4b140d4b7e21  vendor/google_devices/bonito/vendor/firmware/fpctzappfingerprint.b01
 92aa8a2de7fb6d002535af43f50e55e2f6e6ab42  vendor/google_devices/bonito/vendor/firmware/fpctzappfingerprint.b02
@@ -747,9 +747,9 @@ dd6ec6251c587d968f6c42928ae582c301720702  vendor/google_devices/bonito/vendor/fi
 ac8f9b24986cd6403f97280d326f8cab44316fda  vendor/google_devices/bonito/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 80a8b574903ff5cc2cc23e0b5d65daca3f266a87  vendor/google_devices/bonito/vendor/firmware/wlanmdsp.mbn
 d95f4560564de64d575c4cd016336d364d287161  vendor/google_devices/bonito/vendor/framework/com.google.android.camera.experimental2018.jar
-c3bc18d968f3d1093273839a6630efbbd9df5545  vendor/google_devices/bonito/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
+9ca4d90e8c0833ff67db53342a419190932a4bcc  vendor/google_devices/bonito/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/bonito/vendor/framework/oat/arm/com.google.android.camera.experimental2018.vdex
-af78bf0ecdf449a18c6c78e99d1fcb72e61fea32  vendor/google_devices/bonito/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
+746e6f75afdcbb8f30243092928790b2058f5109  vendor/google_devices/bonito/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/bonito/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.vdex
 486365796daf3aaa178c05176ba0f264921744dd  vendor/google_devices/bonito/vendor/lib/android.hardware.sensors@2.0-impl.so
 3d74b19a4af6a5b98bcb6679d4a699ad60212194  vendor/google_devices/bonito/vendor/lib/android.hidl.base@1.0.so
