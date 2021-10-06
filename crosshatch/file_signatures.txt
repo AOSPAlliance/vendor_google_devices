@@ -1,7 +1,7 @@
 d345d1f51b4264ac672f88a1024cd248a594906a  vendor/google_devices/crosshatch/Android.bp
 ddc39b26bdc6d88d0925aeb544e45e57ed5482e8  vendor/google_devices/crosshatch/Android.mk
 d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/crosshatch/AndroidBoardVendor.mk
-26792d0e730bb42758eb917f31cebd431b41f02f  vendor/google_devices/crosshatch/BoardConfigVendorPartial.mk
+88ebe196bf8368c29b8b1d225e76c2107affd963  vendor/google_devices/crosshatch/BoardConfigVendorPartial.mk
 8e9a6af21035aa0f92b6514bc5a8931a9afb241a  vendor/google_devices/crosshatch/crosshatch-vendor-blobs.mk
 f46192fa2b259307bd5bb25ecc02e036c197eee7  vendor/google_devices/crosshatch/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/crosshatch/product/lib/libdmengine.so
@@ -159,7 +159,7 @@ a3c718099be3d9cb2860c4d25f09a6ae184132cf  vendor/google_devices/crosshatch/syste
 d5554b10be82d516d4b129a48876edf6382a2db2  vendor/google_devices/crosshatch/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so
 e4916fa650be82dc55602c2607dcfb9b99bcc253  vendor/google_devices/crosshatch/vendor-board-info.txt
 45ef78d972270c142020ac46ee3ea0f902d6d059  vendor/google_devices/crosshatch/vendor/app/TimeService/TimeService.apk
-9a2e624271cb6fa0580df1674262bcfab5b38c4d  vendor/google_devices/crosshatch/vendor/app/TimeService/oat/arm64/TimeService.odex
+54555f52ad6a01de542b275c1e880b684769a633  vendor/google_devices/crosshatch/vendor/app/TimeService/oat/arm64/TimeService.odex
 ab02615ed044166a04fc98e793971e3609e6e07e  vendor/google_devices/crosshatch/vendor/app/TimeService/oat/arm64/TimeService.vdex
 3e3a876446f518957fc6030cf88b41803d9c9524  vendor/google_devices/crosshatch/vendor/app/crosshatch_game_driver/crosshatch_game_driver.apk
 960de68549563d858c69776bcc496af8859f206f  vendor/google_devices/crosshatch/vendor/bin/ATFWD-daemon
@@ -761,9 +761,9 @@ c03cb8b2a8daaeb4ebc72d969cec440154e766b9  vendor/google_devices/crosshatch/vendo
 3e6459f580be95e7ed0e11dfd881e86aaa831434  vendor/google_devices/crosshatch/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 2f55c48a8943126ff3873467720a24eddefd4abf  vendor/google_devices/crosshatch/vendor/firmware/wlanmdsp.mbn
 d95f4560564de64d575c4cd016336d364d287161  vendor/google_devices/crosshatch/vendor/framework/com.google.android.camera.experimental2018.jar
-9ca4d90e8c0833ff67db53342a419190932a4bcc  vendor/google_devices/crosshatch/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
+2ce549f058e620032d9d977cfafe7d5f9d29d5e8  vendor/google_devices/crosshatch/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/crosshatch/vendor/framework/oat/arm/com.google.android.camera.experimental2018.vdex
-746e6f75afdcbb8f30243092928790b2058f5109  vendor/google_devices/crosshatch/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
+7d006db6dde68642a1b8aa82a3960d002da3bab5  vendor/google_devices/crosshatch/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/crosshatch/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.vdex
 486365796daf3aaa178c05176ba0f264921744dd  vendor/google_devices/crosshatch/vendor/lib/android.hardware.sensors@2.0-impl.so
 0ce4a8594aa0ab3ce6b38f445c66347b4934ded2  vendor/google_devices/crosshatch/vendor/lib/btaudio_offload_if.so
