@@ -3,7 +3,7 @@
 d345d1f51b4264ac672f88a1024cd248a594906a  vendor/google_devices/sargo/Android.bp
 56ec4bc10fd4fd1bd78b1acea6fa6f7d060399c8  vendor/google_devices/sargo/Android.mk
 d4331eeddbcdd3bba2fc71f847f8297d2a6d6b28  vendor/google_devices/sargo/AndroidBoardVendor.mk
-fc97c4962f56fab25d9abb42edf4f318293612f6  vendor/google_devices/sargo/BoardConfigVendorPartial.mk
+b0a1adb059d6ce309f0237c52c50d75473e03de2  vendor/google_devices/sargo/BoardConfigVendorPartial.mk
 f46192fa2b259307bd5bb25ecc02e036c197eee7  vendor/google_devices/sargo/product/etc/apns-conf.xml
 77d7986583e69691a4b8ccb9f7c58aca6902488d  vendor/google_devices/sargo/product/lib/libdmengine.so
 9e366948cee2c30648bdb20e103c220fe19f1ab2  vendor/google_devices/sargo/product/lib/libdmjavaplugin.so
@@ -159,7 +159,7 @@ a3c718099be3d9cb2860c4d25f09a6ae184132cf  vendor/google_devices/sargo/system_ext
 d5554b10be82d516d4b129a48876edf6382a2db2  vendor/google_devices/sargo/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so
 e3c82b40fb55e476ab07295c962ce62d707feaf9  vendor/google_devices/sargo/vendor-board-info.txt
 b39b97462e5d8cb266a4a4b8b9991763edf558f8  vendor/google_devices/sargo/vendor/app/TimeService/TimeService.apk
-9a2e624271cb6fa0580df1674262bcfab5b38c4d  vendor/google_devices/sargo/vendor/app/TimeService/oat/arm64/TimeService.odex
+54555f52ad6a01de542b275c1e880b684769a633  vendor/google_devices/sargo/vendor/app/TimeService/oat/arm64/TimeService.odex
 ab02615ed044166a04fc98e793971e3609e6e07e  vendor/google_devices/sargo/vendor/app/TimeService/oat/arm64/TimeService.vdex
 07656f8b4940c36c25aa452dc7c3694cbe255a17  vendor/google_devices/sargo/vendor/bin/ATFWD-daemon
 802a7450ebc6ffd0edd7bf82d7c588d3e50d16dd  vendor/google_devices/sargo/vendor/bin/KmInstallKeybox
@@ -699,7 +699,7 @@ f1b388690c0772374fc838bdbb6810afda946f28  vendor/google_devices/sargo/vendor/fir
 f0012b0e06f182e685c1e9743382f8c746351786  vendor/google_devices/sargo/vendor/firmware/easel/fip.bin
 da39a3ee5e6b4b0d3255bfef95601890afd80709  vendor/google_devices/sargo/vendor/firmware/easel/hdrplus_shot_pcgs/empty.txt
 94156b533510468e25c0593a66417b5268192406  vendor/google_devices/sargo/vendor/firmware/easel/mnh.dtb
-f29678ee1b61c55206d3086ff4b2802233d34f9b  vendor/google_devices/sargo/vendor/firmware/easel/ramdisk.img
+9382212e42a6fa4b5e2a1342f962c3b13dc8ef8b  vendor/google_devices/sargo/vendor/firmware/easel/ramdisk.img
 c82eb929449dae358b59f02bb8717b432bf864f6  vendor/google_devices/sargo/vendor/firmware/fpctzappfingerprint.b00
 e1a6a3a178221f637274d8ea689e4b140d4b7e21  vendor/google_devices/sargo/vendor/firmware/fpctzappfingerprint.b01
 92aa8a2de7fb6d002535af43f50e55e2f6e6ab42  vendor/google_devices/sargo/vendor/firmware/fpctzappfingerprint.b02
@@ -746,9 +746,9 @@ dd6ec6251c587d968f6c42928ae582c301720702  vendor/google_devices/sargo/vendor/fir
 ac8f9b24986cd6403f97280d326f8cab44316fda  vendor/google_devices/sargo/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 80a8b574903ff5cc2cc23e0b5d65daca3f266a87  vendor/google_devices/sargo/vendor/firmware/wlanmdsp.mbn
 d95f4560564de64d575c4cd016336d364d287161  vendor/google_devices/sargo/vendor/framework/com.google.android.camera.experimental2018.jar
-9ca4d90e8c0833ff67db53342a419190932a4bcc  vendor/google_devices/sargo/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
+2ce549f058e620032d9d977cfafe7d5f9d29d5e8  vendor/google_devices/sargo/vendor/framework/oat/arm/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/sargo/vendor/framework/oat/arm/com.google.android.camera.experimental2018.vdex
-746e6f75afdcbb8f30243092928790b2058f5109  vendor/google_devices/sargo/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
+7d006db6dde68642a1b8aa82a3960d002da3bab5  vendor/google_devices/sargo/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.odex
 696bf292f27e5f73d1acb22564f04f16020e27e4  vendor/google_devices/sargo/vendor/framework/oat/arm64/com.google.android.camera.experimental2018.vdex
 486365796daf3aaa178c05176ba0f264921744dd  vendor/google_devices/sargo/vendor/lib/android.hardware.sensors@2.0-impl.so
 3d74b19a4af6a5b98bcb6679d4a699ad60212194  vendor/google_devices/sargo/vendor/lib/android.hidl.base@1.0.so
